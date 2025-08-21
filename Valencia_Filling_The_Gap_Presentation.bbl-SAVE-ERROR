@@ -1,0 +1,2301 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ynt/apasortcite//global/global/global}
+    \entry{hartley_transmission_1928}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=30fbccc15112d8cf0f6613edfc3cb3ed}{%
+           family={Hartley},
+           familyi={H\bibinitperiod},
+           given={R.\bibnamedelimi V.\bibnamedelimi L.},
+           giveni={R\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{30fbccc15112d8cf0f6613edfc3cb3ed}
+      \strng{fullhash}{30fbccc15112d8cf0f6613edfc3cb3ed}
+      \strng{fullhashraw}{30fbccc15112d8cf0f6613edfc3cb3ed}
+      \strng{bibnamehash}{30fbccc15112d8cf0f6613edfc3cb3ed}
+      \strng{authorbibnamehash}{30fbccc15112d8cf0f6613edfc3cb3ed}
+      \strng{authornamehash}{30fbccc15112d8cf0f6613edfc3cb3ed}
+      \strng{authorfullhash}{30fbccc15112d8cf0f6613edfc3cb3ed}
+      \strng{authorfullhashraw}{30fbccc15112d8cf0f6613edfc3cb3ed}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00058580}
+      \field{journaltitle}{Bell System Technical Journal}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{note}{\url{https://ieeexplore.ieee.org/document/6769394}}
+      \field{number}{3}
+      \field{title}{Transmission of {{Information}} {\textsuperscript{1}}}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2022}
+      \field{volume}{7}
+      \field{year}{1928}
+      \field{urldateera}{ce}
+      \field{pages}{535\bibrangedash 563}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1002/j.1538-7305.1928.tb01236.x
+      \endverb
+    \endentry
+    \entry{mcculloch_logical_1943}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=5a974296313f28b3fec2120402a76512}{%
+           family={McCulloch},
+           familyi={M\bibinitperiod},
+           given={W.S.},
+           giveni={W\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=93e9d958fdc1fb276c6cfc6c92608df6}{%
+           family={Pitts},
+           familyi={P\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e787960e41221e5aee1368e7a6bbfb85}
+      \strng{fullhash}{e787960e41221e5aee1368e7a6bbfb85}
+      \strng{fullhashraw}{e787960e41221e5aee1368e7a6bbfb85}
+      \strng{bibnamehash}{e787960e41221e5aee1368e7a6bbfb85}
+      \strng{authorbibnamehash}{e787960e41221e5aee1368e7a6bbfb85}
+      \strng{authornamehash}{e787960e41221e5aee1368e7a6bbfb85}
+      \strng{authorfullhash}{e787960e41221e5aee1368e7a6bbfb85}
+      \strng{authorfullhashraw}{e787960e41221e5aee1368e7a6bbfb85}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bull. Mark. Biophysics}
+      \field{langid}{english}
+      \field{title}{A {{Logical Calculus}} of the {{Ideas Immanent}} in {{Nervous Activity}}}
+      \field{volume}{5}
+      \field{year}{1943}
+      \field{pages}{115\bibrangedash 33}
+      \range{pages}{19}
+    \endentry
+    \entry{shannon_mathematical_1948}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=22e2130b8d96f93daba648ff62af869b}{%
+           family={Shannon},
+           familyi={S\bibinitperiod},
+           given={C.\bibnamedelimi E.},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{22e2130b8d96f93daba648ff62af869b}
+      \strng{fullhash}{22e2130b8d96f93daba648ff62af869b}
+      \strng{fullhashraw}{22e2130b8d96f93daba648ff62af869b}
+      \strng{bibnamehash}{22e2130b8d96f93daba648ff62af869b}
+      \strng{authorbibnamehash}{22e2130b8d96f93daba648ff62af869b}
+      \strng{authornamehash}{22e2130b8d96f93daba648ff62af869b}
+      \strng{authorfullhash}{22e2130b8d96f93daba648ff62af869b}
+      \strng{authorfullhashraw}{22e2130b8d96f93daba648ff62af869b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00058580}
+      \field{journaltitle}{Bell System Technical Journal}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{note}{\url{https://ieeexplore.ieee.org/document/6773024}}
+      \field{number}{3}
+      \field{title}{A {{Mathematical Theory}} of {{Communication}}}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2022}
+      \field{volume}{27}
+      \field{year}{1948}
+      \field{urldateera}{ce}
+      \field{pages}{379\bibrangedash 423}
+      \range{pages}{45}
+      \verb{doi}
+      \verb 10.1002/j.1538-7305.1948.tb01338.x
+      \endverb
+    \endentry
+    \entry{mackay_limiting_1952}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=0e98a93db7a87917e9002eedcf6efc94}{%
+           family={MacKay},
+           familyi={M\bibinitperiod},
+           given={Donald\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=1ccb147b2b2165266e6ce5900193e687}{%
+           family={McCulloch},
+           familyi={M\bibinitperiod},
+           given={Warren\bibnamedelima S.},
+           giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{28bd1f6c2952c935cdbdcfd9ac1ce9da}
+      \strng{fullhash}{28bd1f6c2952c935cdbdcfd9ac1ce9da}
+      \strng{fullhashraw}{28bd1f6c2952c935cdbdcfd9ac1ce9da}
+      \strng{bibnamehash}{28bd1f6c2952c935cdbdcfd9ac1ce9da}
+      \strng{authorbibnamehash}{28bd1f6c2952c935cdbdcfd9ac1ce9da}
+      \strng{authornamehash}{28bd1f6c2952c935cdbdcfd9ac1ce9da}
+      \strng{authorfullhash}{28bd1f6c2952c935cdbdcfd9ac1ce9da}
+      \strng{authorfullhashraw}{28bd1f6c2952c935cdbdcfd9ac1ce9da}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0007-4985, 1522-9602}
+      \field{journaltitle}{The Bulletin of Mathematical Biophysics}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{note}{\url{http://link.springer.com/10.1007/BF02477711}}
+      \field{number}{2}
+      \field{title}{The Limiting Information Capacity of a Neuronal Link}
+      \field{urlday}{12}
+      \field{urlmonth}{1}
+      \field{urlyear}{2023}
+      \field{volume}{14}
+      \field{year}{1952}
+      \field{urldateera}{ce}
+      \field{pages}{127\bibrangedash 135}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1007/BF02477711
+      \endverb
+    \endentry
+    \entry{rumelhart_model_1973}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=55cd5380bb5b15032a6d5a2015f56e3f}{%
+           family={Rumelhart},
+           familyi={R\bibinitperiod},
+           given={David\bibnamedelima E},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=525beec1aa1bd42694a2f35416573792}{%
+           family={Abrahamson},
+           familyi={A\bibinitperiod},
+           given={Adele\bibnamedelima A},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8157464110fce4401b4ae571775f9c52}
+      \strng{fullhash}{8157464110fce4401b4ae571775f9c52}
+      \strng{fullhashraw}{8157464110fce4401b4ae571775f9c52}
+      \strng{bibnamehash}{8157464110fce4401b4ae571775f9c52}
+      \strng{authorbibnamehash}{8157464110fce4401b4ae571775f9c52}
+      \strng{authornamehash}{8157464110fce4401b4ae571775f9c52}
+      \strng{authorfullhash}{8157464110fce4401b4ae571775f9c52}
+      \strng{authorfullhashraw}{8157464110fce4401b4ae571775f9c52}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00100285}
+      \field{journaltitle}{Cognitive Psychology}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{note}{\url{https://linkinghub.elsevier.com/retrieve/pii/0010028573900236}}
+      \field{number}{1}
+      \field{title}{A Model for Analogical Reasoning}
+      \field{urlday}{10}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{volume}{5}
+      \field{year}{1973}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 28}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1016/0010-0285(73)90023-6
+      \endverb
+    \endentry
+    \entry{dretske_knowledge_1981}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=95da82155f53e63665b2e268453b9928}{%
+           family={Dretske},
+           familyi={D\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Massachusetts The MIT Press}%
+      }
+      \strng{namehash}{95da82155f53e63665b2e268453b9928}
+      \strng{fullhash}{95da82155f53e63665b2e268453b9928}
+      \strng{fullhashraw}{95da82155f53e63665b2e268453b9928}
+      \strng{bibnamehash}{95da82155f53e63665b2e268453b9928}
+      \strng{authorbibnamehash}{95da82155f53e63665b2e268453b9928}
+      \strng{authornamehash}{95da82155f53e63665b2e268453b9928}
+      \strng{authorfullhash}{95da82155f53e63665b2e268453b9928}
+      \strng{authorfullhashraw}{95da82155f53e63665b2e268453b9928}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Knowledge and the {{Flow}} of {{Information}}}
+      \field{year}{1981}
+    \endentry
+    \entry{Dretske1981}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=3a17ee4510d96240726406f71dca25ff}{%
+           family={Dretske},
+           familyi={D\bibinitperiod},
+           given={F.\bibnamedelimi I.},
+           giveni={F\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{3a17ee4510d96240726406f71dca25ff}
+      \strng{fullhash}{3a17ee4510d96240726406f71dca25ff}
+      \strng{fullhashraw}{3a17ee4510d96240726406f71dca25ff}
+      \strng{bibnamehash}{3a17ee4510d96240726406f71dca25ff}
+      \strng{authorbibnamehash}{3a17ee4510d96240726406f71dca25ff}
+      \strng{authornamehash}{3a17ee4510d96240726406f71dca25ff}
+      \strng{authorfullhash}{3a17ee4510d96240726406f71dca25ff}
+      \strng{authorfullhashraw}{3a17ee4510d96240726406f71dca25ff}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Knowledge and the Flow of Information}
+      \field{year}{1981}
+    \endentry
+    \entry{harnad_symbol_1990}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ec69f33038aa2838c8d39e24cd826b99}{%
+           family={Harnad},
+           familyi={H\bibinitperiod},
+           given={Stevan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ec69f33038aa2838c8d39e24cd826b99}
+      \strng{fullhash}{ec69f33038aa2838c8d39e24cd826b99}
+      \strng{fullhashraw}{ec69f33038aa2838c8d39e24cd826b99}
+      \strng{bibnamehash}{ec69f33038aa2838c8d39e24cd826b99}
+      \strng{authorbibnamehash}{ec69f33038aa2838c8d39e24cd826b99}
+      \strng{authornamehash}{ec69f33038aa2838c8d39e24cd826b99}
+      \strng{authorfullhash}{ec69f33038aa2838c8d39e24cd826b99}
+      \strng{authorfullhashraw}{ec69f33038aa2838c8d39e24cd826b99}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{There has been much discussion recently about the scope and limits of purely symbolic models of the mind and about the proper role of connectionism in cognitive modeling. This paper describes the ``symbol grounding problem'': How can the semantic interpretation of a formal symbol system be made intrinsic to the system, rather than just parasitic on the meanings in our heads? How can the meanings of the meaningless symbol tokens, manipulated solely on the basis of their (arbitrary) shapes, be grounded in anything but other meaningless symbols? The problem is analogous to trying to learn Chinese from a Chinese/Chinese dictionary alone. A candidate solution is sketched: Symbolic representations must be grounded bottom-up in nonsymbolic representations of two kinds: (1) iconic representations, which are analogs of the proximal sensory projections of distal objects and events, and (2) categorical representations, which are learned and innate feature detectors that pick out the invariant features of object and event categories from their sensory projections. Elementary symbols are the names of these object and event categories, assigned on the basis of their (nonsymbolic) categorical representations. Higher-order (3) symbolic representations, grounded in these elementary symbols, consist of symbol strings describing category membership relations (e.g. ``An X is a Y that is Z''). Connectionism is one natural candidate for the mechanism that learns the invariant features underlying categorical representations, thereby connecting names to the proximal projections of the distal objects they stand for. In this way connectionism can be seen as a complementary component in a hybrid nonsymbolic/symbolic model of the mind, rather than a rival to purely symbolic modeling. Such a hybrid model would not have an autonomous symbolic ``module,'' however; the symbolic functions would emerge as an intrinsically ``dedicated'' symbol system as a consequence of the bottom-up grounding of categories' names in their sensory representations. Symbol manipulation would be governed not just by the arbitrary shapes of the symbol tokens, but by the nonarbitrary shapes of the icons and category invariants in which they are grounded.}
+      \field{issn}{0167-2789}
+      \field{journaltitle}{Physica D: Nonlinear Phenomena}
+      \field{month}{6}
+      \field{note}{\url{https://www.sciencedirect.com/science/article/pii/0167278990900876}}
+      \field{number}{1}
+      \field{title}{The Symbol Grounding Problem}
+      \field{volume}{42}
+      \field{year}{1990}
+      \field{pages}{335\bibrangedash 346}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/0167-2789(90)90087-6
+      \endverb
+    \endentry
+    \entry{smolensky_tensor_1990}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=74a4f6a7c1bedcd46b510fca0106e4f3}{%
+           family={Smolensky},
+           familyi={S\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{74a4f6a7c1bedcd46b510fca0106e4f3}
+      \strng{fullhash}{74a4f6a7c1bedcd46b510fca0106e4f3}
+      \strng{fullhashraw}{74a4f6a7c1bedcd46b510fca0106e4f3}
+      \strng{bibnamehash}{74a4f6a7c1bedcd46b510fca0106e4f3}
+      \strng{authorbibnamehash}{74a4f6a7c1bedcd46b510fca0106e4f3}
+      \strng{authornamehash}{74a4f6a7c1bedcd46b510fca0106e4f3}
+      \strng{authorfullhash}{74a4f6a7c1bedcd46b510fca0106e4f3}
+      \strng{authorfullhashraw}{74a4f6a7c1bedcd46b510fca0106e4f3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00043702}
+      \field{journaltitle}{Artificial Intelligence}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{note}{\url{https://linkinghub.elsevier.com/retrieve/pii/000437029090007M}}
+      \field{number}{1-2}
+      \field{title}{Tensor Product Variable Binding and the Representation of Symbolic Structures in Connectionist Systems}
+      \field{urlday}{29}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{volume}{46}
+      \field{year}{1990}
+      \field{urldateera}{ce}
+      \field{pages}{159\bibrangedash 216}
+      \range{pages}{58}
+      \verb{doi}
+      \verb 10.1016/0004-3702(90)90007-M
+      \endverb
+    \endentry
+    \entry{machamer_thinking_2000}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f323f6386f3e38315a0ffad79b10eb10}{%
+           family={Machamer},
+           familyi={M\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=67de51af72e2118b54f1112dde45835f}{%
+           family={Darden},
+           familyi={D\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7b81f38c61dfae64806743119aae2ec4}{%
+           family={Craver},
+           familyi={C\bibinitperiod},
+           given={C.F.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5670b561a451b3e2683610bfdbfde9ca}
+      \strng{fullhash}{e28e12102e2606f8fdf1dd2f8de6dca8}
+      \strng{fullhashraw}{e28e12102e2606f8fdf1dd2f8de6dca8}
+      \strng{bibnamehash}{e28e12102e2606f8fdf1dd2f8de6dca8}
+      \strng{authorbibnamehash}{e28e12102e2606f8fdf1dd2f8de6dca8}
+      \strng{authornamehash}{5670b561a451b3e2683610bfdbfde9ca}
+      \strng{authorfullhash}{e28e12102e2606f8fdf1dd2f8de6dca8}
+      \strng{authorfullhashraw}{e28e12102e2606f8fdf1dd2f8de6dca8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophy of Science}
+      \field{langid}{english}
+      \field{number}{1}
+      \field{title}{Thinking about {{Mechanisms}}}
+      \field{volume}{67}
+      \field{year}{2000}
+      \field{pages}{1\bibrangedash 25}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1086/392759
+      \endverb
+    \endentry
+    \entry{janssen_frege_2001}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=19d6831b59346f4bbd7e21d86784b6b8}{%
+           family={Janssen},
+           familyi={J\bibinitperiod},
+           given={Theo\bibnamedelimb M.\bibnamedelimi V.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Netherlands}%
+      }
+      \strng{namehash}{19d6831b59346f4bbd7e21d86784b6b8}
+      \strng{fullhash}{19d6831b59346f4bbd7e21d86784b6b8}
+      \strng{fullhashraw}{19d6831b59346f4bbd7e21d86784b6b8}
+      \strng{bibnamehash}{19d6831b59346f4bbd7e21d86784b6b8}
+      \strng{authorbibnamehash}{19d6831b59346f4bbd7e21d86784b6b8}
+      \strng{authornamehash}{19d6831b59346f4bbd7e21d86784b6b8}
+      \strng{authorfullhash}{19d6831b59346f4bbd7e21d86784b6b8}
+      \strng{authorfullhashraw}{19d6831b59346f4bbd7e21d86784b6b8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Logic, Language and Information}
+      \field{number}{1}
+      \field{title}{Frege, Contextuality and Compositionality}
+      \field{volume}{10}
+      \field{year}{2001}
+      \field{pages}{115\bibrangedash 136}
+      \range{pages}{22}
+    \endentry
+    \entry{glennan_rethinking_2002}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5029c54c6b4ef446c56cb6d8dbfcf37c}{%
+           family={Glennan},
+           familyi={G\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5029c54c6b4ef446c56cb6d8dbfcf37c}
+      \strng{fullhash}{5029c54c6b4ef446c56cb6d8dbfcf37c}
+      \strng{fullhashraw}{5029c54c6b4ef446c56cb6d8dbfcf37c}
+      \strng{bibnamehash}{5029c54c6b4ef446c56cb6d8dbfcf37c}
+      \strng{authorbibnamehash}{5029c54c6b4ef446c56cb6d8dbfcf37c}
+      \strng{authornamehash}{5029c54c6b4ef446c56cb6d8dbfcf37c}
+      \strng{authorfullhash}{5029c54c6b4ef446c56cb6d8dbfcf37c}
+      \strng{authorfullhashraw}{5029c54c6b4ef446c56cb6d8dbfcf37c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Philosophers of science typically associate the causal-mechanical view of scientific explanation with the work of Railton and Salmon. In this paper I shall argue that the defects of this view arise from an inadequate analysis of the concept of mechanism. I contrast Salmon's account of mechanisms in terms of the causal nexus with my own account of mechanisms, in which mechanisms are viewed as complex systems. After describing these two concepts of mechanism, I show how the complex-systems approach avoids certain objections to Salmon's account of causal-mechanical explanation. I conclude by discussing how mechanistic explanations can provide understanding by unification.}
+      \field{issn}{0031-8248, 1539-767X}
+      \field{journaltitle}{Philosophy of Science}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{note}{\url{https://www.cambridge.org/core/product/identifier/S0031824800000684/type/journal_article}}
+      \field{number}{S3}
+      \field{title}{Rethinking {{Mechanistic Explanation}}}
+      \field{urlday}{21}
+      \field{urlmonth}{10}
+      \field{urlyear}{2022}
+      \field{volume}{69}
+      \field{year}{2002}
+      \field{urldateera}{ce}
+      \field{pages}{S342\bibrangedash S353}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1086/341857
+      \endverb
+      \verb{file}
+      \verb /home/danny/snap/zotero-snap/common/Zotero/storage/PHQPIMT9/Glennan - 2002 - Rethinking Mechanistic Explanation.pdf
+      \endverb
+    \endentry
+    \entry{MacKay2003}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=5628728eab381926f0910ef222f530f7}{%
+           family={MacKay},
+           familyi={M\bibinitperiod},
+           given={D.\bibnamedelimi J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{5628728eab381926f0910ef222f530f7}
+      \strng{fullhash}{5628728eab381926f0910ef222f530f7}
+      \strng{fullhashraw}{5628728eab381926f0910ef222f530f7}
+      \strng{bibnamehash}{5628728eab381926f0910ef222f530f7}
+      \strng{authorbibnamehash}{5628728eab381926f0910ef222f530f7}
+      \strng{authornamehash}{5628728eab381926f0910ef222f530f7}
+      \strng{authorfullhash}{5628728eab381926f0910ef222f530f7}
+      \strng{authorfullhashraw}{5628728eab381926f0910ef222f530f7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{http://www.inference.org.uk/mackay/itila/book.html}}
+      \field{title}{Information Theory, Inference and Learning Algorithms}
+      \field{year}{2003}
+    \endentry
+    \entry{ramsey_representation_2007}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9eb57383d8b7a45155afd3b95450fba9}{%
+           family={Ramsey},
+           familyi={R\bibinitperiod},
+           given={W.M.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{9eb57383d8b7a45155afd3b95450fba9}
+      \strng{fullhash}{9eb57383d8b7a45155afd3b95450fba9}
+      \strng{fullhashraw}{9eb57383d8b7a45155afd3b95450fba9}
+      \strng{bibnamehash}{9eb57383d8b7a45155afd3b95450fba9}
+      \strng{authorbibnamehash}{9eb57383d8b7a45155afd3b95450fba9}
+      \strng{authornamehash}{9eb57383d8b7a45155afd3b95450fba9}
+      \strng{authorfullhash}{9eb57383d8b7a45155afd3b95450fba9}
+      \strng{authorfullhashraw}{9eb57383d8b7a45155afd3b95450fba9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Representation {{Reconsidered}}}
+      \field{year}{2007}
+    \endentry
+    \entry{ueki_how_2010}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=ed5019a4f74007b64ef0a0ac06552688}{%
+           family={Ueki},
+           familyi={U\bibinitperiod},
+           given={Noriko},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c488ba2d1c54155955602c3d89a7208}{%
+           family={Matsunaga},
+           familyi={M\bibinitperiod},
+           given={Shigeru},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc5acaa41268f89960073cad3108c65d}{%
+           family={Inouye},
+           familyi={I\bibinitperiod},
+           given={Isao},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8769e1fdbbb1d22f21d851cb2af4d7f7}{%
+           family={Hallmann},
+           familyi={H\bibinitperiod},
+           given={Armin},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3ce64b8c3492d27edad6a183df5805ee}
+      \strng{fullhash}{9c57b44dcf060abb538a78dbfa8e8aaf}
+      \strng{fullhashraw}{9c57b44dcf060abb538a78dbfa8e8aaf}
+      \strng{bibnamehash}{9c57b44dcf060abb538a78dbfa8e8aaf}
+      \strng{authorbibnamehash}{9c57b44dcf060abb538a78dbfa8e8aaf}
+      \strng{authornamehash}{3ce64b8c3492d27edad6a183df5805ee}
+      \strng{authorfullhash}{9c57b44dcf060abb538a78dbfa8e8aaf}
+      \strng{authorfullhashraw}{9c57b44dcf060abb538a78dbfa8e8aaf}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract Background The evolution of multicellular motile organisms from unicellular ancestors required the utilization of previously evolved tactic behavior in a multicellular context. Volvocine green algae are uniquely suited for studying tactic responses during the transition to multicellularity because they range in complexity from unicellular to multicellular genera. Phototactic responses are essential for these flagellates because they need to orientate themselves to receive sufficient light for photosynthesis, but how does a multicellular organism accomplish phototaxis without any known direct communication among cells? Several aspects of the photoresponse have previously been analyzed in volvocine algae, particularly in the unicellular alga Chlamydomonas . Results In this study, the phototactic behavior in the spheroidal, multicellular volvocine green alga Volvox rousseletii (Volvocales, Chlorophyta) was analyzed. In response to light stimuli, not only did the flagella waveform and beat frequency change, but the effective stroke was reversed. Moreover, there was a photoresponse gradient from the anterior to the posterior pole of the spheroid, and only cells of the anterior hemisphere showed an effective response. The latter caused a reverse of the fluid flow that was confined to the anterior hemisphere. The responsiveness to light is consistent with an anterior-to-posterior size gradient of eyespots. At the posterior pole, the eyespots are tiny or absent, making the corresponding cells appear to be blind. Pulsed light stimulation of an immobilized spheroid was used to simulate the light fluctuation experienced by a rotating spheroid during phototaxis. The results demonstrated that in free-swimming spheroids, only those cells of the anterior hemisphere that face toward the light source reverse the beating direction in the presence of illumination; this behavior results in phototactic turning. Moreover, positive phototaxis is facilitated by gravitational forces. Under our conditions, V. rousseletii spheroids showed no negative phototaxis. Conclusions On the basis of our results, we developed a mechanistic model that predicts the phototactic behavior in V. rousseletii . The model involves photoresponses, periodically changing light conditions, morphological polarity, rotation of the spheroid, two modes of flagellar beating, and the impact of gravity. Our results also indicate how recently evolved multicellular organisms adapted the phototactic capabilities of their unicellular ancestors to multicellular life.}
+      \field{issn}{1741-7007}
+      \field{journaltitle}{BMC Biology}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{note}{\url{https://bmcbiol.biomedcentral.com/articles/10.1186/1741-7007-8-103}}
+      \field{number}{1}
+      \field{shorttitle}{How 5000 Independent Rowers Coordinate Their Strokes in Order to Row into the Sunlight}
+      \field{title}{How 5000 Independent Rowers Coordinate Their Strokes in Order to Row into the Sunlight: {{Phototaxis}} in the Multicellular Green Alga {{Volvox}}}
+      \field{urlday}{8}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{8}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{103}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/1741-7007-8-103
+      \endverb
+      \verb{file}
+      \verb /home/danny/snap/zotero-snap/common/Zotero/storage/2AMD3QBC/Ueki et al. - 2010 - How 5000 independent rowers coordinate their strokes in order to row into the sunlight Phototaxis i.pdf
+      \endverb
+    \endentry
+    \entry{kaplan_explanatory_2011-1}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=86919a362eb386821527d5d36f8177ba}{%
+           family={Kaplan},
+           familyi={K\bibinitperiod},
+           given={David\bibnamedelima Michael},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=681ea118094012178c8966425e67be9a}{%
+           family={Craver},
+           familyi={C\bibinitperiod},
+           given={Carl\bibnamedelima F.},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c18e067f870071fa36e4642757441a40}
+      \strng{fullhash}{c18e067f870071fa36e4642757441a40}
+      \strng{fullhashraw}{c18e067f870071fa36e4642757441a40}
+      \strng{bibnamehash}{c18e067f870071fa36e4642757441a40}
+      \strng{authorbibnamehash}{c18e067f870071fa36e4642757441a40}
+      \strng{authornamehash}{c18e067f870071fa36e4642757441a40}
+      \strng{authorfullhash}{c18e067f870071fa36e4642757441a40}
+      \strng{authorfullhashraw}{c18e067f870071fa36e4642757441a40}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We argue that dynamical and mathematical models in systems and cognitive neuroscience explain (rather than redescribe) a phenomenon only if there is a plausible mapping between elements in the model and elements in the mechanism for the phenomenon. We demonstrate how this model-to-mechanism-mapping constraint, when satisfied, endows a model with explanatory force with respect to the phenomenon to be explained. Several paradigmatic models including the Haken-Kelso-Bunz model of bimanual coordination and the difference-of-Gaussians model of visual receptive fields are explored.}
+      \field{issn}{0031-8248, 1539-767X}
+      \field{journaltitle}{Philosophy of Science}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{note}{\url{https://www.cambridge.org/core/product/identifier/S0031824800016093/type/journal_article}}
+      \field{number}{4}
+      \field{shorttitle}{The {{Explanatory Force}} of {{Dynamical}} and {{Mathematical Models}} in {{Neuroscience}}}
+      \field{title}{The {{Explanatory Force}} of {{Dynamical}} and {{Mathematical Models}} in {{Neuroscience}}: {{A Mechanistic Perspective}}}
+      \field{urlday}{13}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{78}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \field{pages}{601\bibrangedash 627}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1086/661755
+      \endverb
+    \endentry
+    \entry{janssen_compositionality_2012}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=6c775be2e3ff5ebcf7916deabcf54b10}{%
+           family={Janssen},
+           familyi={J\bibinitperiod},
+           given={Theo},
+           giveni={T\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{6c775be2e3ff5ebcf7916deabcf54b10}
+      \strng{fullhash}{6c775be2e3ff5ebcf7916deabcf54b10}
+      \strng{fullhashraw}{6c775be2e3ff5ebcf7916deabcf54b10}
+      \strng{bibnamehash}{6c775be2e3ff5ebcf7916deabcf54b10}
+      \strng{authorbibnamehash}{6c775be2e3ff5ebcf7916deabcf54b10}
+      \strng{authornamehash}{6c775be2e3ff5ebcf7916deabcf54b10}
+      \strng{authorfullhash}{6c775be2e3ff5ebcf7916deabcf54b10}
+      \strng{authorfullhashraw}{6c775be2e3ff5ebcf7916deabcf54b10}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{month}{2}
+      \field{note}{\url{http://oxfordhandbooks.com/view/10.1093/oxfordhb/9780199541072.001.0001/oxfordhb-9780199541072-e-1}}
+      \field{shorttitle}{Compositionality}
+      \field{title}{Compositionality: {{Its Historic Context}}}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1093/oxfordhb/9780199541072.013.0001
+      \endverb
+      \verb{file}
+      \verb /home/danny/snap/zotero-snap/common/Zotero/storage/T3L6PJRQ/Janssen - 2012 - Compositionality Its Historic Context.pdf
+      \endverb
+    \endentry
+    \entry{mikolov2013a}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=a2d359b12ca2fadf0b40136a73f021bb}{%
+           family={Mikolov},
+           familyi={M\bibinitperiod},
+           given={Tomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee3f7d7b96add98106db907e189d6c13}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3d11e6f2a0d0a1183b2cf62996525afc}{%
+           family={Corrado},
+           familyi={C\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4aecfb0cc2e1e3b7899129fa2a94e2b8}{%
+           family={Dean},
+           familyi={D\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d4849f6d57e38d9b9846cfb360e45131}
+      \strng{fullhash}{f24c60896b6daa69474b40efb61f4e88}
+      \strng{fullhashraw}{f24c60896b6daa69474b40efb61f4e88}
+      \strng{bibnamehash}{f24c60896b6daa69474b40efb61f4e88}
+      \strng{authorbibnamehash}{f24c60896b6daa69474b40efb61f4e88}
+      \strng{authornamehash}{d4849f6d57e38d9b9846cfb360e45131}
+      \strng{authorfullhash}{f24c60896b6daa69474b40efb61f4e88}
+      \strng{authorfullhashraw}{f24c60896b6daa69474b40efb61f4e88}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 1st International Conference on Learning Representa Tions ({{ICLR}}), Workshop Track}
+      \field{langid}{english}
+      \field{title}{Efficient Estimation of Word Represen Tations in Vector Space}
+      \field{year}{2013}
+    \endentry
+    \entry{gladziejewski_explaining_2015-1}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=be75be73b87f60f69aacf18169dc4549}{%
+           family={G{ł}adziejewski},
+           familyi={G\bibinitperiod},
+           given={Pawe{ł}},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{be75be73b87f60f69aacf18169dc4549}
+      \strng{fullhash}{be75be73b87f60f69aacf18169dc4549}
+      \strng{fullhashraw}{be75be73b87f60f69aacf18169dc4549}
+      \strng{bibnamehash}{be75be73b87f60f69aacf18169dc4549}
+      \strng{authorbibnamehash}{be75be73b87f60f69aacf18169dc4549}
+      \strng{authornamehash}{be75be73b87f60f69aacf18169dc4549}
+      \strng{authorfullhash}{be75be73b87f60f69aacf18169dc4549}
+      \strng{authorfullhashraw}{be75be73b87f60f69aacf18169dc4549}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract Despite the fact that the notion of internal representation has - at least according to some - a fundamental role to play in the sciences of the mind, not only has its explanatory utility been under attack for a while now, but it also remains unclear what criteria should an explanation of a given cognitive phenomenon meet to count as a (truly, genuinely, nontrivially, etc.) representational explanation in the first place. The aim of this article is to propose a solution to this latter problem. I will assume that representational explanations should be construed as a form of mechanistic explanations and proceed by proposing a general sketch of a functional architecture of a representational cognitive mechanism. According to the view on offer here, representational mechanisms are mechanisms that meet four conditions: the structural resemblance condition, the action-guidance condition, the decouplability condition, and the error-detection condition.}
+      \field{issn}{2199-6059, 0860-150X}
+      \field{journaltitle}{Studies in Logic, Grammar and Rhetoric}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{note}{\url{https://www.sciendo.com/article/10.1515/slgr-2015-0004}}
+      \field{number}{1}
+      \field{shorttitle}{Explaining {{Cognitive Phenomena}} with {{Internal Representations}}}
+      \field{title}{Explaining {{Cognitive Phenomena}} with {{Internal Representations}}: {{A Mechanistic Perspective}}}
+      \field{urlday}{16}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{volume}{40}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{63\bibrangedash 90}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1515/slgr-2015-0004
+      \endverb
+    \endentry
+    \entry{dennett_bacteria_2017}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b219207777fc66137cedd549c2e54409}{%
+           family={Dennett},
+           familyi={D\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {W.W. Norton \& Company}%
+      }
+      \strng{namehash}{b219207777fc66137cedd549c2e54409}
+      \strng{fullhash}{b219207777fc66137cedd549c2e54409}
+      \strng{fullhashraw}{b219207777fc66137cedd549c2e54409}
+      \strng{bibnamehash}{b219207777fc66137cedd549c2e54409}
+      \strng{authorbibnamehash}{b219207777fc66137cedd549c2e54409}
+      \strng{authornamehash}{b219207777fc66137cedd549c2e54409}
+      \strng{authorfullhash}{b219207777fc66137cedd549c2e54409}
+      \strng{authorfullhashraw}{b219207777fc66137cedd549c2e54409}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{From {{Bacteria}} to {{Bach}} and {{Back}}: {{The Evolution}} of {{Minds}}}
+      \field{year}{2017}
+    \endentry
+    \entry{gladziejewski_structural_2017}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1159a246a496d1d4b18577abaecb16da}{%
+           family={G{ł}adziejewski},
+           familyi={G\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5ffb32887ecdd5c60a236c785b4868c3}{%
+           family={Mi{ł}kowski},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{355ee2a3e452563085d30eb85b4ef73a}
+      \strng{fullhash}{355ee2a3e452563085d30eb85b4ef73a}
+      \strng{fullhashraw}{355ee2a3e452563085d30eb85b4ef73a}
+      \strng{bibnamehash}{355ee2a3e452563085d30eb85b4ef73a}
+      \strng{authorbibnamehash}{355ee2a3e452563085d30eb85b4ef73a}
+      \strng{authornamehash}{355ee2a3e452563085d30eb85b4ef73a}
+      \strng{authorfullhash}{355ee2a3e452563085d30eb85b4ef73a}
+      \strng{authorfullhashraw}{355ee2a3e452563085d30eb85b4ef73a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biology \& Philosophy}
+      \field{langid}{english}
+      \field{title}{Structural Representations: {{Causally}} Relevant and Different from Detectors}
+      \field{volume}{32}
+      \field{year}{2017}
+      \field{pages}{337\bibrangedash 355}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1007/s10539-017-9562-6
+      \endverb
+    \endentry
+    \entry{martinez_representations_2019}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=160928a8d7ade797bc706850ca0d1574}{%
+           family={Martínez},
+           familyi={M\bibinitperiod},
+           given={Manolo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{160928a8d7ade797bc706850ca0d1574}
+      \strng{fullhash}{160928a8d7ade797bc706850ca0d1574}
+      \strng{fullhashraw}{160928a8d7ade797bc706850ca0d1574}
+      \strng{bibnamehash}{160928a8d7ade797bc706850ca0d1574}
+      \strng{authorbibnamehash}{160928a8d7ade797bc706850ca0d1574}
+      \strng{authornamehash}{160928a8d7ade797bc706850ca0d1574}
+      \strng{authorfullhash}{160928a8d7ade797bc706850ca0d1574}
+      \strng{authorfullhashraw}{160928a8d7ade797bc706850ca0d1574}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Theorists working on information and representation are often not centrally concerned with ``Shannon'' information, as it is often put, but with some other, sometimes called ``semantic,'' kind of information. This perception is wrong. Shannon's theory of information is the only one we need. I sketch a (Shannon) informational account of representation, for a certain important family of cases. This account, which represents a significant departure from the Dretskean philosophical mainstream, will show how a number of popular proposals about the purportedly noninformational ingredients in representation actually belong in the same coherent, purely information-theoretic picture.}
+      \field{issn}{0031-8248, 1539-767X}
+      \field{journaltitle}{Philosophy of Science}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{note}{\url{https://www.cambridge.org/core/product/identifier/S0031824800015592/type/journal_article}}
+      \field{number}{5}
+      \field{title}{Representations {{Are Rate-Distortion Sweet Spots}}}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2022}
+      \field{volume}{86}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{1214\bibrangedash 1226}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1086/705493
+      \endverb
+      \verb{file}
+      \verb /home/danny/snap/zotero-snap/common/Zotero/storage/9N6TVCDX/Martínez - 2019 - Representations Are Rate-Distortion Sweet Spots.pdf
+      \endverb
+    \endentry
+    \entry{nizami_information_2019}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=df1a5fa14bf9347df2ac4f5427a3456c}{%
+           family={Nizami},
+           familyi={N\bibinitperiod},
+           given={Lance},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{df1a5fa14bf9347df2ac4f5427a3456c}
+      \strng{fullhash}{df1a5fa14bf9347df2ac4f5427a3456c}
+      \strng{fullhashraw}{df1a5fa14bf9347df2ac4f5427a3456c}
+      \strng{bibnamehash}{df1a5fa14bf9347df2ac4f5427a3456c}
+      \strng{authorbibnamehash}{df1a5fa14bf9347df2ac4f5427a3456c}
+      \strng{authornamehash}{df1a5fa14bf9347df2ac4f5427a3456c}
+      \strng{authorfullhash}{df1a5fa14bf9347df2ac4f5427a3456c}
+      \strng{authorfullhashraw}{df1a5fa14bf9347df2ac4f5427a3456c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cybernetics and Human Knowing}
+      \field{number}{4}
+      \field{title}{Information {{Theory}} Is Abused in Neuroscience}
+      \field{volume}{26}
+      \field{year}{2019}
+      \field{pages}{47\bibrangedash 97}
+      \range{pages}{51}
+    \endentry
+    \entry{rathkopf_what_2020}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c24123a132b7de30590c170e022ac7db}{%
+           family={Rathkopf},
+           familyi={R\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c24123a132b7de30590c170e022ac7db}
+      \strng{fullhash}{c24123a132b7de30590c170e022ac7db}
+      \strng{fullhashraw}{c24123a132b7de30590c170e022ac7db}
+      \strng{bibnamehash}{c24123a132b7de30590c170e022ac7db}
+      \strng{authorbibnamehash}{c24123a132b7de30590c170e022ac7db}
+      \strng{authornamehash}{c24123a132b7de30590c170e022ac7db}
+      \strng{authorfullhash}{c24123a132b7de30590c170e022ac7db}
+      \strng{authorfullhashraw}{c24123a132b7de30590c170e022ac7db}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0167-7411, 1572-8749}
+      \field{journaltitle}{Topoi}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{note}{\url{http://link.springer.com/10.1007/s11245-017-9512-6}}
+      \field{number}{1}
+      \field{title}{What {{Kind}} of {{Information}} Is {{Brain Information}}?}
+      \field{urlday}{29}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{volume}{39}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{95\bibrangedash 102}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1007/s11245-017-9512-6
+      \endverb
+      \verb{file}
+      \verb /home/danny/snap/zotero-snap/common/Zotero/storage/79P56A3U/Rathkopf - 2020 - What Kind of Information is Brain Information.pdf
+      \endverb
+    \endentry
+    \entry{carcassi_variability_2021}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=89545c7ef6f26bb3d07a6831bc6fa161}{%
+           family={Carcassi},
+           familyi={C\bibinitperiod},
+           given={Gabriele},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa960056ec64969ce84c34f3503bd32d}{%
+           family={Aidala},
+           familyi={A\bibinitperiod},
+           given={Christine\bibnamedelima A},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2cfbf8115b853d76094e6b8dbfcd3f56}{%
+           family={Barbour},
+           familyi={B\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{281be341ae5737146163bc67cf884119}
+      \strng{fullhash}{1f7fbd302a31c94755e7b11a43d4ffc1}
+      \strng{fullhashraw}{1f7fbd302a31c94755e7b11a43d4ffc1}
+      \strng{bibnamehash}{1f7fbd302a31c94755e7b11a43d4ffc1}
+      \strng{authorbibnamehash}{1f7fbd302a31c94755e7b11a43d4ffc1}
+      \strng{authornamehash}{281be341ae5737146163bc67cf884119}
+      \strng{authorfullhash}{1f7fbd302a31c94755e7b11a43d4ffc1}
+      \strng{authorfullhashraw}{1f7fbd302a31c94755e7b11a43d4ffc1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract The Shannon entropy, one of the cornerstones of information theory, is widely used in physics, particularly in statistical mechanics. Yet its characterization and connection to physics remain vague, leaving ample room for misconceptions and misunderstanding. We will show that the Shannon entropy can be fully understood as measuring the variability of the elements within a given distribution: it characterizes how much variation can be found within a collection of objects. We will see that it is the only indicator that is continuous and linear, that it quantifies the number of yes/no questions (i.e. bits) that are needed to identify an element within the distribution, and we will see how applying this concept to statistical mechanics in different ways leads to the Boltzmann, Gibbs and von Neumann entropies.}
+      \field{issn}{0143-0807, 1361-6404}
+      \field{journaltitle}{European Journal of Physics}
+      \field{month}{7}
+      \field{note}{\url{https://iopscience.iop.org/article/10.1088/1361-6404/abe361}}
+      \field{number}{4}
+      \field{title}{Variability as a Better Characterization of {{Shannon}} Entropy}
+      \field{urlday}{6}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{volume}{42}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{045102}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1361-6404/abe361
+      \endverb
+      \verb{file}
+      \verb /home/danny/snap/zotero-snap/common/Zotero/storage/96KDRIAX/Carcassi et al. - 2021 - Variability as a better characterization of Shanno.pdf
+      \endverb
+    \endentry
+    \entry{Mann2023}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=16eb2aa6ffa0a87a36d0dccfc806d50a}{%
+           family={Mann},
+           familyi={M\bibinitperiod},
+           given={S.\bibnamedelimi F.},
+           giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{16eb2aa6ffa0a87a36d0dccfc806d50a}
+      \strng{fullhash}{16eb2aa6ffa0a87a36d0dccfc806d50a}
+      \strng{fullhashraw}{16eb2aa6ffa0a87a36d0dccfc806d50a}
+      \strng{bibnamehash}{16eb2aa6ffa0a87a36d0dccfc806d50a}
+      \strng{authorbibnamehash}{16eb2aa6ffa0a87a36d0dccfc806d50a}
+      \strng{authornamehash}{16eb2aa6ffa0a87a36d0dccfc806d50a}
+      \strng{authorfullhash}{16eb2aa6ffa0a87a36d0dccfc806d50a}
+      \strng{authorfullhashraw}{16eb2aa6ffa0a87a36d0dccfc806d50a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophy and the Mind Sciences}
+      \field{title}{The Relevance of Communication Theory for Theories of Representation}
+      \field{volume}{4}
+      \field{year}{2023}
+      \field{pages}{32}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.33735/phimisci.2023.10992
+      \endverb
+    \endentry
+    \entry{axler_linear_2024}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2ef085dcf813cb6d9946f19baf038343}{%
+           family={Axler},
+           familyi={A\bibinitperiod},
+           given={Sheldon\bibnamedelima Jay},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature}%
+      }
+      \strng{namehash}{2ef085dcf813cb6d9946f19baf038343}
+      \strng{fullhash}{2ef085dcf813cb6d9946f19baf038343}
+      \strng{fullhashraw}{2ef085dcf813cb6d9946f19baf038343}
+      \strng{bibnamehash}{2ef085dcf813cb6d9946f19baf038343}
+      \strng{authorbibnamehash}{2ef085dcf813cb6d9946f19baf038343}
+      \strng{authornamehash}{2ef085dcf813cb6d9946f19baf038343}
+      \strng{authorfullhash}{2ef085dcf813cb6d9946f19baf038343}
+      \strng{authorfullhashraw}{2ef085dcf813cb6d9946f19baf038343}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Now available in Open Access, this best-selling textbook for a second course in linear algebra is aimed at undergraduate math majors and graduate students. The fourth edition gives an expanded treatment of the singular value decomposition and its consequences. It includes a new chapter on multilinear algebra, treating bilinear forms, quadratic forms, tensor products, and an approach to determinants via alternating multilinear forms. This new edition also increases the use of the minimal polynomial to provide cleaner proofs of multiple results. Also, over 250 new exercises have been added. The novel approach taken here banishes determinants to the end of the book. The text focuses on the central goal of linear algebra: understanding the structure of linear operators on finite-dimensional vector spaces. The author has taken unusual care to motivate concepts and simplify proofs. A variety of interesting exercises in each chapter helps students understand and manipulate the objects of linear algebra. Beautiful formatting creates pages with an unusually student-friendly appearance in both print and electronic versions. No prerequisites are assumed other than the usual demand for suitable mathematical maturity. The text starts by discussing vector spaces, linear independence, span, basis, and dimension. The book then deals with linear maps, eigenvalues, and eigenvectors. Inner-product spaces are introduced, leading to the finite-dimensional spectral theorem and its consequences. Generalized eigenvectors are then used to provide insight into the structure of a linear operator. From the reviews of previous editions: Altogether, the text is a didactic masterpiece. --- zbMATH The determinant-free proofs are elegant and intuitive. --- American Mathematical Monthly The most original linear algebra book to appear in years, it certainly belongs in every undergraduate library --- CHOICE}
+      \field{isbn}{978-3-031-41025-3 978-3-031-41026-0}
+      \field{langid}{english}
+      \field{series}{Undergraduate {{Texts}} in {{Mathematics}}}
+      \field{title}{Linear {{Algebra Done Right}}}
+      \field{year}{2024}
+    \endentry
+  \enddatalist
+  \datalist[entry]{ynt/global//global/global/global}
+    \entry{hartley_transmission_1928}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=30fbccc15112d8cf0f6613edfc3cb3ed}{%
+           family={Hartley},
+           familyi={H\bibinitperiod},
+           given={R.\bibnamedelimi V.\bibnamedelimi L.},
+           giveni={R\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{30fbccc15112d8cf0f6613edfc3cb3ed}
+      \strng{fullhash}{30fbccc15112d8cf0f6613edfc3cb3ed}
+      \strng{fullhashraw}{30fbccc15112d8cf0f6613edfc3cb3ed}
+      \strng{bibnamehash}{30fbccc15112d8cf0f6613edfc3cb3ed}
+      \strng{authorbibnamehash}{30fbccc15112d8cf0f6613edfc3cb3ed}
+      \strng{authornamehash}{30fbccc15112d8cf0f6613edfc3cb3ed}
+      \strng{authorfullhash}{30fbccc15112d8cf0f6613edfc3cb3ed}
+      \strng{authorfullhashraw}{30fbccc15112d8cf0f6613edfc3cb3ed}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00058580}
+      \field{journaltitle}{Bell System Technical Journal}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{note}{\url{https://ieeexplore.ieee.org/document/6769394}}
+      \field{number}{3}
+      \field{title}{Transmission of {{Information}} {\textsuperscript{1}}}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2022}
+      \field{volume}{7}
+      \field{year}{1928}
+      \field{urldateera}{ce}
+      \field{pages}{535\bibrangedash 563}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1002/j.1538-7305.1928.tb01236.x
+      \endverb
+    \endentry
+    \entry{mcculloch_logical_1943}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=5a974296313f28b3fec2120402a76512}{%
+           family={McCulloch},
+           familyi={M\bibinitperiod},
+           given={W.S.},
+           giveni={W\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=93e9d958fdc1fb276c6cfc6c92608df6}{%
+           family={Pitts},
+           familyi={P\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e787960e41221e5aee1368e7a6bbfb85}
+      \strng{fullhash}{e787960e41221e5aee1368e7a6bbfb85}
+      \strng{fullhashraw}{e787960e41221e5aee1368e7a6bbfb85}
+      \strng{bibnamehash}{e787960e41221e5aee1368e7a6bbfb85}
+      \strng{authorbibnamehash}{e787960e41221e5aee1368e7a6bbfb85}
+      \strng{authornamehash}{e787960e41221e5aee1368e7a6bbfb85}
+      \strng{authorfullhash}{e787960e41221e5aee1368e7a6bbfb85}
+      \strng{authorfullhashraw}{e787960e41221e5aee1368e7a6bbfb85}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bull. Mark. Biophysics}
+      \field{langid}{english}
+      \field{title}{A {{Logical Calculus}} of the {{Ideas Immanent}} in {{Nervous Activity}}}
+      \field{volume}{5}
+      \field{year}{1943}
+      \field{pages}{115\bibrangedash 33}
+      \range{pages}{19}
+    \endentry
+    \entry{shannon_mathematical_1948}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=22e2130b8d96f93daba648ff62af869b}{%
+           family={Shannon},
+           familyi={S\bibinitperiod},
+           given={C.\bibnamedelimi E.},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{22e2130b8d96f93daba648ff62af869b}
+      \strng{fullhash}{22e2130b8d96f93daba648ff62af869b}
+      \strng{fullhashraw}{22e2130b8d96f93daba648ff62af869b}
+      \strng{bibnamehash}{22e2130b8d96f93daba648ff62af869b}
+      \strng{authorbibnamehash}{22e2130b8d96f93daba648ff62af869b}
+      \strng{authornamehash}{22e2130b8d96f93daba648ff62af869b}
+      \strng{authorfullhash}{22e2130b8d96f93daba648ff62af869b}
+      \strng{authorfullhashraw}{22e2130b8d96f93daba648ff62af869b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00058580}
+      \field{journaltitle}{Bell System Technical Journal}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{note}{\url{https://ieeexplore.ieee.org/document/6773024}}
+      \field{number}{3}
+      \field{title}{A {{Mathematical Theory}} of {{Communication}}}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2022}
+      \field{volume}{27}
+      \field{year}{1948}
+      \field{urldateera}{ce}
+      \field{pages}{379\bibrangedash 423}
+      \range{pages}{45}
+      \verb{doi}
+      \verb 10.1002/j.1538-7305.1948.tb01338.x
+      \endverb
+    \endentry
+    \entry{mackay_limiting_1952}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=0e98a93db7a87917e9002eedcf6efc94}{%
+           family={MacKay},
+           familyi={M\bibinitperiod},
+           given={Donald\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=1ccb147b2b2165266e6ce5900193e687}{%
+           family={McCulloch},
+           familyi={M\bibinitperiod},
+           given={Warren\bibnamedelima S.},
+           giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{28bd1f6c2952c935cdbdcfd9ac1ce9da}
+      \strng{fullhash}{28bd1f6c2952c935cdbdcfd9ac1ce9da}
+      \strng{fullhashraw}{28bd1f6c2952c935cdbdcfd9ac1ce9da}
+      \strng{bibnamehash}{28bd1f6c2952c935cdbdcfd9ac1ce9da}
+      \strng{authorbibnamehash}{28bd1f6c2952c935cdbdcfd9ac1ce9da}
+      \strng{authornamehash}{28bd1f6c2952c935cdbdcfd9ac1ce9da}
+      \strng{authorfullhash}{28bd1f6c2952c935cdbdcfd9ac1ce9da}
+      \strng{authorfullhashraw}{28bd1f6c2952c935cdbdcfd9ac1ce9da}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0007-4985, 1522-9602}
+      \field{journaltitle}{The Bulletin of Mathematical Biophysics}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{note}{\url{http://link.springer.com/10.1007/BF02477711}}
+      \field{number}{2}
+      \field{title}{The Limiting Information Capacity of a Neuronal Link}
+      \field{urlday}{12}
+      \field{urlmonth}{1}
+      \field{urlyear}{2023}
+      \field{volume}{14}
+      \field{year}{1952}
+      \field{urldateera}{ce}
+      \field{pages}{127\bibrangedash 135}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1007/BF02477711
+      \endverb
+    \endentry
+    \entry{rumelhart_model_1973}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=55cd5380bb5b15032a6d5a2015f56e3f}{%
+           family={Rumelhart},
+           familyi={R\bibinitperiod},
+           given={David\bibnamedelima E},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=525beec1aa1bd42694a2f35416573792}{%
+           family={Abrahamson},
+           familyi={A\bibinitperiod},
+           given={Adele\bibnamedelima A},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8157464110fce4401b4ae571775f9c52}
+      \strng{fullhash}{8157464110fce4401b4ae571775f9c52}
+      \strng{fullhashraw}{8157464110fce4401b4ae571775f9c52}
+      \strng{bibnamehash}{8157464110fce4401b4ae571775f9c52}
+      \strng{authorbibnamehash}{8157464110fce4401b4ae571775f9c52}
+      \strng{authornamehash}{8157464110fce4401b4ae571775f9c52}
+      \strng{authorfullhash}{8157464110fce4401b4ae571775f9c52}
+      \strng{authorfullhashraw}{8157464110fce4401b4ae571775f9c52}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00100285}
+      \field{journaltitle}{Cognitive Psychology}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{note}{\url{https://linkinghub.elsevier.com/retrieve/pii/0010028573900236}}
+      \field{number}{1}
+      \field{title}{A Model for Analogical Reasoning}
+      \field{urlday}{10}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{volume}{5}
+      \field{year}{1973}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 28}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1016/0010-0285(73)90023-6
+      \endverb
+    \endentry
+    \entry{dretske_knowledge_1981}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=95da82155f53e63665b2e268453b9928}{%
+           family={Dretske},
+           familyi={D\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Massachusetts The MIT Press}%
+      }
+      \strng{namehash}{95da82155f53e63665b2e268453b9928}
+      \strng{fullhash}{95da82155f53e63665b2e268453b9928}
+      \strng{fullhashraw}{95da82155f53e63665b2e268453b9928}
+      \strng{bibnamehash}{95da82155f53e63665b2e268453b9928}
+      \strng{authorbibnamehash}{95da82155f53e63665b2e268453b9928}
+      \strng{authornamehash}{95da82155f53e63665b2e268453b9928}
+      \strng{authorfullhash}{95da82155f53e63665b2e268453b9928}
+      \strng{authorfullhashraw}{95da82155f53e63665b2e268453b9928}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Knowledge and the {{Flow}} of {{Information}}}
+      \field{year}{1981}
+    \endentry
+    \entry{Dretske1981}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=3a17ee4510d96240726406f71dca25ff}{%
+           family={Dretske},
+           familyi={D\bibinitperiod},
+           given={F.\bibnamedelimi I.},
+           giveni={F\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{3a17ee4510d96240726406f71dca25ff}
+      \strng{fullhash}{3a17ee4510d96240726406f71dca25ff}
+      \strng{fullhashraw}{3a17ee4510d96240726406f71dca25ff}
+      \strng{bibnamehash}{3a17ee4510d96240726406f71dca25ff}
+      \strng{authorbibnamehash}{3a17ee4510d96240726406f71dca25ff}
+      \strng{authornamehash}{3a17ee4510d96240726406f71dca25ff}
+      \strng{authorfullhash}{3a17ee4510d96240726406f71dca25ff}
+      \strng{authorfullhashraw}{3a17ee4510d96240726406f71dca25ff}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Knowledge and the Flow of Information}
+      \field{year}{1981}
+    \endentry
+    \entry{harnad_symbol_1990}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ec69f33038aa2838c8d39e24cd826b99}{%
+           family={Harnad},
+           familyi={H\bibinitperiod},
+           given={Stevan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ec69f33038aa2838c8d39e24cd826b99}
+      \strng{fullhash}{ec69f33038aa2838c8d39e24cd826b99}
+      \strng{fullhashraw}{ec69f33038aa2838c8d39e24cd826b99}
+      \strng{bibnamehash}{ec69f33038aa2838c8d39e24cd826b99}
+      \strng{authorbibnamehash}{ec69f33038aa2838c8d39e24cd826b99}
+      \strng{authornamehash}{ec69f33038aa2838c8d39e24cd826b99}
+      \strng{authorfullhash}{ec69f33038aa2838c8d39e24cd826b99}
+      \strng{authorfullhashraw}{ec69f33038aa2838c8d39e24cd826b99}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{There has been much discussion recently about the scope and limits of purely symbolic models of the mind and about the proper role of connectionism in cognitive modeling. This paper describes the ``symbol grounding problem'': How can the semantic interpretation of a formal symbol system be made intrinsic to the system, rather than just parasitic on the meanings in our heads? How can the meanings of the meaningless symbol tokens, manipulated solely on the basis of their (arbitrary) shapes, be grounded in anything but other meaningless symbols? The problem is analogous to trying to learn Chinese from a Chinese/Chinese dictionary alone. A candidate solution is sketched: Symbolic representations must be grounded bottom-up in nonsymbolic representations of two kinds: (1) iconic representations, which are analogs of the proximal sensory projections of distal objects and events, and (2) categorical representations, which are learned and innate feature detectors that pick out the invariant features of object and event categories from their sensory projections. Elementary symbols are the names of these object and event categories, assigned on the basis of their (nonsymbolic) categorical representations. Higher-order (3) symbolic representations, grounded in these elementary symbols, consist of symbol strings describing category membership relations (e.g. ``An X is a Y that is Z''). Connectionism is one natural candidate for the mechanism that learns the invariant features underlying categorical representations, thereby connecting names to the proximal projections of the distal objects they stand for. In this way connectionism can be seen as a complementary component in a hybrid nonsymbolic/symbolic model of the mind, rather than a rival to purely symbolic modeling. Such a hybrid model would not have an autonomous symbolic ``module,'' however; the symbolic functions would emerge as an intrinsically ``dedicated'' symbol system as a consequence of the bottom-up grounding of categories' names in their sensory representations. Symbol manipulation would be governed not just by the arbitrary shapes of the symbol tokens, but by the nonarbitrary shapes of the icons and category invariants in which they are grounded.}
+      \field{issn}{0167-2789}
+      \field{journaltitle}{Physica D: Nonlinear Phenomena}
+      \field{month}{6}
+      \field{note}{\url{https://www.sciencedirect.com/science/article/pii/0167278990900876}}
+      \field{number}{1}
+      \field{title}{The Symbol Grounding Problem}
+      \field{volume}{42}
+      \field{year}{1990}
+      \field{pages}{335\bibrangedash 346}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/0167-2789(90)90087-6
+      \endverb
+    \endentry
+    \entry{smolensky_tensor_1990}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=74a4f6a7c1bedcd46b510fca0106e4f3}{%
+           family={Smolensky},
+           familyi={S\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{74a4f6a7c1bedcd46b510fca0106e4f3}
+      \strng{fullhash}{74a4f6a7c1bedcd46b510fca0106e4f3}
+      \strng{fullhashraw}{74a4f6a7c1bedcd46b510fca0106e4f3}
+      \strng{bibnamehash}{74a4f6a7c1bedcd46b510fca0106e4f3}
+      \strng{authorbibnamehash}{74a4f6a7c1bedcd46b510fca0106e4f3}
+      \strng{authornamehash}{74a4f6a7c1bedcd46b510fca0106e4f3}
+      \strng{authorfullhash}{74a4f6a7c1bedcd46b510fca0106e4f3}
+      \strng{authorfullhashraw}{74a4f6a7c1bedcd46b510fca0106e4f3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00043702}
+      \field{journaltitle}{Artificial Intelligence}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{note}{\url{https://linkinghub.elsevier.com/retrieve/pii/000437029090007M}}
+      \field{number}{1-2}
+      \field{title}{Tensor Product Variable Binding and the Representation of Symbolic Structures in Connectionist Systems}
+      \field{urlday}{29}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{volume}{46}
+      \field{year}{1990}
+      \field{urldateera}{ce}
+      \field{pages}{159\bibrangedash 216}
+      \range{pages}{58}
+      \verb{doi}
+      \verb 10.1016/0004-3702(90)90007-M
+      \endverb
+    \endentry
+    \entry{machamer_thinking_2000}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f323f6386f3e38315a0ffad79b10eb10}{%
+           family={Machamer},
+           familyi={M\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=67de51af72e2118b54f1112dde45835f}{%
+           family={Darden},
+           familyi={D\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7b81f38c61dfae64806743119aae2ec4}{%
+           family={Craver},
+           familyi={C\bibinitperiod},
+           given={C.F.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5670b561a451b3e2683610bfdbfde9ca}
+      \strng{fullhash}{e28e12102e2606f8fdf1dd2f8de6dca8}
+      \strng{fullhashraw}{e28e12102e2606f8fdf1dd2f8de6dca8}
+      \strng{bibnamehash}{e28e12102e2606f8fdf1dd2f8de6dca8}
+      \strng{authorbibnamehash}{e28e12102e2606f8fdf1dd2f8de6dca8}
+      \strng{authornamehash}{5670b561a451b3e2683610bfdbfde9ca}
+      \strng{authorfullhash}{e28e12102e2606f8fdf1dd2f8de6dca8}
+      \strng{authorfullhashraw}{e28e12102e2606f8fdf1dd2f8de6dca8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophy of Science}
+      \field{langid}{english}
+      \field{number}{1}
+      \field{title}{Thinking about {{Mechanisms}}}
+      \field{volume}{67}
+      \field{year}{2000}
+      \field{pages}{1\bibrangedash 25}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1086/392759
+      \endverb
+    \endentry
+    \entry{janssen_frege_2001}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=19d6831b59346f4bbd7e21d86784b6b8}{%
+           family={Janssen},
+           familyi={J\bibinitperiod},
+           given={Theo\bibnamedelimb M.\bibnamedelimi V.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Netherlands}%
+      }
+      \strng{namehash}{19d6831b59346f4bbd7e21d86784b6b8}
+      \strng{fullhash}{19d6831b59346f4bbd7e21d86784b6b8}
+      \strng{fullhashraw}{19d6831b59346f4bbd7e21d86784b6b8}
+      \strng{bibnamehash}{19d6831b59346f4bbd7e21d86784b6b8}
+      \strng{authorbibnamehash}{19d6831b59346f4bbd7e21d86784b6b8}
+      \strng{authornamehash}{19d6831b59346f4bbd7e21d86784b6b8}
+      \strng{authorfullhash}{19d6831b59346f4bbd7e21d86784b6b8}
+      \strng{authorfullhashraw}{19d6831b59346f4bbd7e21d86784b6b8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Logic, Language and Information}
+      \field{number}{1}
+      \field{title}{Frege, Contextuality and Compositionality}
+      \field{volume}{10}
+      \field{year}{2001}
+      \field{pages}{115\bibrangedash 136}
+      \range{pages}{22}
+    \endentry
+    \entry{glennan_rethinking_2002}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5029c54c6b4ef446c56cb6d8dbfcf37c}{%
+           family={Glennan},
+           familyi={G\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5029c54c6b4ef446c56cb6d8dbfcf37c}
+      \strng{fullhash}{5029c54c6b4ef446c56cb6d8dbfcf37c}
+      \strng{fullhashraw}{5029c54c6b4ef446c56cb6d8dbfcf37c}
+      \strng{bibnamehash}{5029c54c6b4ef446c56cb6d8dbfcf37c}
+      \strng{authorbibnamehash}{5029c54c6b4ef446c56cb6d8dbfcf37c}
+      \strng{authornamehash}{5029c54c6b4ef446c56cb6d8dbfcf37c}
+      \strng{authorfullhash}{5029c54c6b4ef446c56cb6d8dbfcf37c}
+      \strng{authorfullhashraw}{5029c54c6b4ef446c56cb6d8dbfcf37c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Philosophers of science typically associate the causal-mechanical view of scientific explanation with the work of Railton and Salmon. In this paper I shall argue that the defects of this view arise from an inadequate analysis of the concept of mechanism. I contrast Salmon's account of mechanisms in terms of the causal nexus with my own account of mechanisms, in which mechanisms are viewed as complex systems. After describing these two concepts of mechanism, I show how the complex-systems approach avoids certain objections to Salmon's account of causal-mechanical explanation. I conclude by discussing how mechanistic explanations can provide understanding by unification.}
+      \field{issn}{0031-8248, 1539-767X}
+      \field{journaltitle}{Philosophy of Science}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{note}{\url{https://www.cambridge.org/core/product/identifier/S0031824800000684/type/journal_article}}
+      \field{number}{S3}
+      \field{title}{Rethinking {{Mechanistic Explanation}}}
+      \field{urlday}{21}
+      \field{urlmonth}{10}
+      \field{urlyear}{2022}
+      \field{volume}{69}
+      \field{year}{2002}
+      \field{urldateera}{ce}
+      \field{pages}{S342\bibrangedash S353}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1086/341857
+      \endverb
+      \verb{file}
+      \verb /home/danny/snap/zotero-snap/common/Zotero/storage/PHQPIMT9/Glennan - 2002 - Rethinking Mechanistic Explanation.pdf
+      \endverb
+    \endentry
+    \entry{MacKay2003}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=5628728eab381926f0910ef222f530f7}{%
+           family={MacKay},
+           familyi={M\bibinitperiod},
+           given={D.\bibnamedelimi J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{5628728eab381926f0910ef222f530f7}
+      \strng{fullhash}{5628728eab381926f0910ef222f530f7}
+      \strng{fullhashraw}{5628728eab381926f0910ef222f530f7}
+      \strng{bibnamehash}{5628728eab381926f0910ef222f530f7}
+      \strng{authorbibnamehash}{5628728eab381926f0910ef222f530f7}
+      \strng{authornamehash}{5628728eab381926f0910ef222f530f7}
+      \strng{authorfullhash}{5628728eab381926f0910ef222f530f7}
+      \strng{authorfullhashraw}{5628728eab381926f0910ef222f530f7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{http://www.inference.org.uk/mackay/itila/book.html}}
+      \field{title}{Information Theory, Inference and Learning Algorithms}
+      \field{year}{2003}
+    \endentry
+    \entry{ramsey_representation_2007}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9eb57383d8b7a45155afd3b95450fba9}{%
+           family={Ramsey},
+           familyi={R\bibinitperiod},
+           given={W.M.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{9eb57383d8b7a45155afd3b95450fba9}
+      \strng{fullhash}{9eb57383d8b7a45155afd3b95450fba9}
+      \strng{fullhashraw}{9eb57383d8b7a45155afd3b95450fba9}
+      \strng{bibnamehash}{9eb57383d8b7a45155afd3b95450fba9}
+      \strng{authorbibnamehash}{9eb57383d8b7a45155afd3b95450fba9}
+      \strng{authornamehash}{9eb57383d8b7a45155afd3b95450fba9}
+      \strng{authorfullhash}{9eb57383d8b7a45155afd3b95450fba9}
+      \strng{authorfullhashraw}{9eb57383d8b7a45155afd3b95450fba9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Representation {{Reconsidered}}}
+      \field{year}{2007}
+    \endentry
+    \entry{ueki_how_2010}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=ed5019a4f74007b64ef0a0ac06552688}{%
+           family={Ueki},
+           familyi={U\bibinitperiod},
+           given={Noriko},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c488ba2d1c54155955602c3d89a7208}{%
+           family={Matsunaga},
+           familyi={M\bibinitperiod},
+           given={Shigeru},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc5acaa41268f89960073cad3108c65d}{%
+           family={Inouye},
+           familyi={I\bibinitperiod},
+           given={Isao},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8769e1fdbbb1d22f21d851cb2af4d7f7}{%
+           family={Hallmann},
+           familyi={H\bibinitperiod},
+           given={Armin},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3ce64b8c3492d27edad6a183df5805ee}
+      \strng{fullhash}{9c57b44dcf060abb538a78dbfa8e8aaf}
+      \strng{fullhashraw}{9c57b44dcf060abb538a78dbfa8e8aaf}
+      \strng{bibnamehash}{9c57b44dcf060abb538a78dbfa8e8aaf}
+      \strng{authorbibnamehash}{9c57b44dcf060abb538a78dbfa8e8aaf}
+      \strng{authornamehash}{3ce64b8c3492d27edad6a183df5805ee}
+      \strng{authorfullhash}{9c57b44dcf060abb538a78dbfa8e8aaf}
+      \strng{authorfullhashraw}{9c57b44dcf060abb538a78dbfa8e8aaf}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract Background The evolution of multicellular motile organisms from unicellular ancestors required the utilization of previously evolved tactic behavior in a multicellular context. Volvocine green algae are uniquely suited for studying tactic responses during the transition to multicellularity because they range in complexity from unicellular to multicellular genera. Phototactic responses are essential for these flagellates because they need to orientate themselves to receive sufficient light for photosynthesis, but how does a multicellular organism accomplish phototaxis without any known direct communication among cells? Several aspects of the photoresponse have previously been analyzed in volvocine algae, particularly in the unicellular alga Chlamydomonas . Results In this study, the phototactic behavior in the spheroidal, multicellular volvocine green alga Volvox rousseletii (Volvocales, Chlorophyta) was analyzed. In response to light stimuli, not only did the flagella waveform and beat frequency change, but the effective stroke was reversed. Moreover, there was a photoresponse gradient from the anterior to the posterior pole of the spheroid, and only cells of the anterior hemisphere showed an effective response. The latter caused a reverse of the fluid flow that was confined to the anterior hemisphere. The responsiveness to light is consistent with an anterior-to-posterior size gradient of eyespots. At the posterior pole, the eyespots are tiny or absent, making the corresponding cells appear to be blind. Pulsed light stimulation of an immobilized spheroid was used to simulate the light fluctuation experienced by a rotating spheroid during phototaxis. The results demonstrated that in free-swimming spheroids, only those cells of the anterior hemisphere that face toward the light source reverse the beating direction in the presence of illumination; this behavior results in phototactic turning. Moreover, positive phototaxis is facilitated by gravitational forces. Under our conditions, V. rousseletii spheroids showed no negative phototaxis. Conclusions On the basis of our results, we developed a mechanistic model that predicts the phototactic behavior in V. rousseletii . The model involves photoresponses, periodically changing light conditions, morphological polarity, rotation of the spheroid, two modes of flagellar beating, and the impact of gravity. Our results also indicate how recently evolved multicellular organisms adapted the phototactic capabilities of their unicellular ancestors to multicellular life.}
+      \field{issn}{1741-7007}
+      \field{journaltitle}{BMC Biology}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{note}{\url{https://bmcbiol.biomedcentral.com/articles/10.1186/1741-7007-8-103}}
+      \field{number}{1}
+      \field{shorttitle}{How 5000 Independent Rowers Coordinate Their Strokes in Order to Row into the Sunlight}
+      \field{title}{How 5000 Independent Rowers Coordinate Their Strokes in Order to Row into the Sunlight: {{Phototaxis}} in the Multicellular Green Alga {{Volvox}}}
+      \field{urlday}{8}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{8}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{103}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/1741-7007-8-103
+      \endverb
+      \verb{file}
+      \verb /home/danny/snap/zotero-snap/common/Zotero/storage/2AMD3QBC/Ueki et al. - 2010 - How 5000 independent rowers coordinate their strokes in order to row into the sunlight Phototaxis i.pdf
+      \endverb
+    \endentry
+    \entry{kaplan_explanatory_2011-1}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=86919a362eb386821527d5d36f8177ba}{%
+           family={Kaplan},
+           familyi={K\bibinitperiod},
+           given={David\bibnamedelima Michael},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=681ea118094012178c8966425e67be9a}{%
+           family={Craver},
+           familyi={C\bibinitperiod},
+           given={Carl\bibnamedelima F.},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c18e067f870071fa36e4642757441a40}
+      \strng{fullhash}{c18e067f870071fa36e4642757441a40}
+      \strng{fullhashraw}{c18e067f870071fa36e4642757441a40}
+      \strng{bibnamehash}{c18e067f870071fa36e4642757441a40}
+      \strng{authorbibnamehash}{c18e067f870071fa36e4642757441a40}
+      \strng{authornamehash}{c18e067f870071fa36e4642757441a40}
+      \strng{authorfullhash}{c18e067f870071fa36e4642757441a40}
+      \strng{authorfullhashraw}{c18e067f870071fa36e4642757441a40}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We argue that dynamical and mathematical models in systems and cognitive neuroscience explain (rather than redescribe) a phenomenon only if there is a plausible mapping between elements in the model and elements in the mechanism for the phenomenon. We demonstrate how this model-to-mechanism-mapping constraint, when satisfied, endows a model with explanatory force with respect to the phenomenon to be explained. Several paradigmatic models including the Haken-Kelso-Bunz model of bimanual coordination and the difference-of-Gaussians model of visual receptive fields are explored.}
+      \field{issn}{0031-8248, 1539-767X}
+      \field{journaltitle}{Philosophy of Science}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{note}{\url{https://www.cambridge.org/core/product/identifier/S0031824800016093/type/journal_article}}
+      \field{number}{4}
+      \field{shorttitle}{The {{Explanatory Force}} of {{Dynamical}} and {{Mathematical Models}} in {{Neuroscience}}}
+      \field{title}{The {{Explanatory Force}} of {{Dynamical}} and {{Mathematical Models}} in {{Neuroscience}}: {{A Mechanistic Perspective}}}
+      \field{urlday}{13}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{78}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \field{pages}{601\bibrangedash 627}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1086/661755
+      \endverb
+    \endentry
+    \entry{janssen_compositionality_2012}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=6c775be2e3ff5ebcf7916deabcf54b10}{%
+           family={Janssen},
+           familyi={J\bibinitperiod},
+           given={Theo},
+           giveni={T\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{6c775be2e3ff5ebcf7916deabcf54b10}
+      \strng{fullhash}{6c775be2e3ff5ebcf7916deabcf54b10}
+      \strng{fullhashraw}{6c775be2e3ff5ebcf7916deabcf54b10}
+      \strng{bibnamehash}{6c775be2e3ff5ebcf7916deabcf54b10}
+      \strng{authorbibnamehash}{6c775be2e3ff5ebcf7916deabcf54b10}
+      \strng{authornamehash}{6c775be2e3ff5ebcf7916deabcf54b10}
+      \strng{authorfullhash}{6c775be2e3ff5ebcf7916deabcf54b10}
+      \strng{authorfullhashraw}{6c775be2e3ff5ebcf7916deabcf54b10}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{month}{2}
+      \field{note}{\url{http://oxfordhandbooks.com/view/10.1093/oxfordhb/9780199541072.001.0001/oxfordhb-9780199541072-e-1}}
+      \field{shorttitle}{Compositionality}
+      \field{title}{Compositionality: {{Its Historic Context}}}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1093/oxfordhb/9780199541072.013.0001
+      \endverb
+      \verb{file}
+      \verb /home/danny/snap/zotero-snap/common/Zotero/storage/T3L6PJRQ/Janssen - 2012 - Compositionality Its Historic Context.pdf
+      \endverb
+    \endentry
+    \entry{mikolov2013a}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=a2d359b12ca2fadf0b40136a73f021bb}{%
+           family={Mikolov},
+           familyi={M\bibinitperiod},
+           given={Tomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee3f7d7b96add98106db907e189d6c13}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3d11e6f2a0d0a1183b2cf62996525afc}{%
+           family={Corrado},
+           familyi={C\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4aecfb0cc2e1e3b7899129fa2a94e2b8}{%
+           family={Dean},
+           familyi={D\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d4849f6d57e38d9b9846cfb360e45131}
+      \strng{fullhash}{f24c60896b6daa69474b40efb61f4e88}
+      \strng{fullhashraw}{f24c60896b6daa69474b40efb61f4e88}
+      \strng{bibnamehash}{f24c60896b6daa69474b40efb61f4e88}
+      \strng{authorbibnamehash}{f24c60896b6daa69474b40efb61f4e88}
+      \strng{authornamehash}{d4849f6d57e38d9b9846cfb360e45131}
+      \strng{authorfullhash}{f24c60896b6daa69474b40efb61f4e88}
+      \strng{authorfullhashraw}{f24c60896b6daa69474b40efb61f4e88}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 1st International Conference on Learning Representa Tions ({{ICLR}}), Workshop Track}
+      \field{langid}{english}
+      \field{title}{Efficient Estimation of Word Represen Tations in Vector Space}
+      \field{year}{2013}
+    \endentry
+    \entry{gladziejewski_explaining_2015-1}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=be75be73b87f60f69aacf18169dc4549}{%
+           family={G{ł}adziejewski},
+           familyi={G\bibinitperiod},
+           given={Pawe{ł}},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{be75be73b87f60f69aacf18169dc4549}
+      \strng{fullhash}{be75be73b87f60f69aacf18169dc4549}
+      \strng{fullhashraw}{be75be73b87f60f69aacf18169dc4549}
+      \strng{bibnamehash}{be75be73b87f60f69aacf18169dc4549}
+      \strng{authorbibnamehash}{be75be73b87f60f69aacf18169dc4549}
+      \strng{authornamehash}{be75be73b87f60f69aacf18169dc4549}
+      \strng{authorfullhash}{be75be73b87f60f69aacf18169dc4549}
+      \strng{authorfullhashraw}{be75be73b87f60f69aacf18169dc4549}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract Despite the fact that the notion of internal representation has - at least according to some - a fundamental role to play in the sciences of the mind, not only has its explanatory utility been under attack for a while now, but it also remains unclear what criteria should an explanation of a given cognitive phenomenon meet to count as a (truly, genuinely, nontrivially, etc.) representational explanation in the first place. The aim of this article is to propose a solution to this latter problem. I will assume that representational explanations should be construed as a form of mechanistic explanations and proceed by proposing a general sketch of a functional architecture of a representational cognitive mechanism. According to the view on offer here, representational mechanisms are mechanisms that meet four conditions: the structural resemblance condition, the action-guidance condition, the decouplability condition, and the error-detection condition.}
+      \field{issn}{2199-6059, 0860-150X}
+      \field{journaltitle}{Studies in Logic, Grammar and Rhetoric}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{note}{\url{https://www.sciendo.com/article/10.1515/slgr-2015-0004}}
+      \field{number}{1}
+      \field{shorttitle}{Explaining {{Cognitive Phenomena}} with {{Internal Representations}}}
+      \field{title}{Explaining {{Cognitive Phenomena}} with {{Internal Representations}}: {{A Mechanistic Perspective}}}
+      \field{urlday}{16}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{volume}{40}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{63\bibrangedash 90}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1515/slgr-2015-0004
+      \endverb
+    \endentry
+    \entry{dennett_bacteria_2017}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b219207777fc66137cedd549c2e54409}{%
+           family={Dennett},
+           familyi={D\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {W.W. Norton \& Company}%
+      }
+      \strng{namehash}{b219207777fc66137cedd549c2e54409}
+      \strng{fullhash}{b219207777fc66137cedd549c2e54409}
+      \strng{fullhashraw}{b219207777fc66137cedd549c2e54409}
+      \strng{bibnamehash}{b219207777fc66137cedd549c2e54409}
+      \strng{authorbibnamehash}{b219207777fc66137cedd549c2e54409}
+      \strng{authornamehash}{b219207777fc66137cedd549c2e54409}
+      \strng{authorfullhash}{b219207777fc66137cedd549c2e54409}
+      \strng{authorfullhashraw}{b219207777fc66137cedd549c2e54409}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{From {{Bacteria}} to {{Bach}} and {{Back}}: {{The Evolution}} of {{Minds}}}
+      \field{year}{2017}
+    \endentry
+    \entry{gladziejewski_structural_2017}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1159a246a496d1d4b18577abaecb16da}{%
+           family={G{ł}adziejewski},
+           familyi={G\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5ffb32887ecdd5c60a236c785b4868c3}{%
+           family={Mi{ł}kowski},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{355ee2a3e452563085d30eb85b4ef73a}
+      \strng{fullhash}{355ee2a3e452563085d30eb85b4ef73a}
+      \strng{fullhashraw}{355ee2a3e452563085d30eb85b4ef73a}
+      \strng{bibnamehash}{355ee2a3e452563085d30eb85b4ef73a}
+      \strng{authorbibnamehash}{355ee2a3e452563085d30eb85b4ef73a}
+      \strng{authornamehash}{355ee2a3e452563085d30eb85b4ef73a}
+      \strng{authorfullhash}{355ee2a3e452563085d30eb85b4ef73a}
+      \strng{authorfullhashraw}{355ee2a3e452563085d30eb85b4ef73a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biology \& Philosophy}
+      \field{langid}{english}
+      \field{title}{Structural Representations: {{Causally}} Relevant and Different from Detectors}
+      \field{volume}{32}
+      \field{year}{2017}
+      \field{pages}{337\bibrangedash 355}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1007/s10539-017-9562-6
+      \endverb
+    \endentry
+    \entry{martinez_representations_2019}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=160928a8d7ade797bc706850ca0d1574}{%
+           family={Martínez},
+           familyi={M\bibinitperiod},
+           given={Manolo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{160928a8d7ade797bc706850ca0d1574}
+      \strng{fullhash}{160928a8d7ade797bc706850ca0d1574}
+      \strng{fullhashraw}{160928a8d7ade797bc706850ca0d1574}
+      \strng{bibnamehash}{160928a8d7ade797bc706850ca0d1574}
+      \strng{authorbibnamehash}{160928a8d7ade797bc706850ca0d1574}
+      \strng{authornamehash}{160928a8d7ade797bc706850ca0d1574}
+      \strng{authorfullhash}{160928a8d7ade797bc706850ca0d1574}
+      \strng{authorfullhashraw}{160928a8d7ade797bc706850ca0d1574}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Theorists working on information and representation are often not centrally concerned with ``Shannon'' information, as it is often put, but with some other, sometimes called ``semantic,'' kind of information. This perception is wrong. Shannon's theory of information is the only one we need. I sketch a (Shannon) informational account of representation, for a certain important family of cases. This account, which represents a significant departure from the Dretskean philosophical mainstream, will show how a number of popular proposals about the purportedly noninformational ingredients in representation actually belong in the same coherent, purely information-theoretic picture.}
+      \field{issn}{0031-8248, 1539-767X}
+      \field{journaltitle}{Philosophy of Science}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{note}{\url{https://www.cambridge.org/core/product/identifier/S0031824800015592/type/journal_article}}
+      \field{number}{5}
+      \field{title}{Representations {{Are Rate-Distortion Sweet Spots}}}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2022}
+      \field{volume}{86}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{1214\bibrangedash 1226}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1086/705493
+      \endverb
+      \verb{file}
+      \verb /home/danny/snap/zotero-snap/common/Zotero/storage/9N6TVCDX/Martínez - 2019 - Representations Are Rate-Distortion Sweet Spots.pdf
+      \endverb
+    \endentry
+    \entry{nizami_information_2019}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=df1a5fa14bf9347df2ac4f5427a3456c}{%
+           family={Nizami},
+           familyi={N\bibinitperiod},
+           given={Lance},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{df1a5fa14bf9347df2ac4f5427a3456c}
+      \strng{fullhash}{df1a5fa14bf9347df2ac4f5427a3456c}
+      \strng{fullhashraw}{df1a5fa14bf9347df2ac4f5427a3456c}
+      \strng{bibnamehash}{df1a5fa14bf9347df2ac4f5427a3456c}
+      \strng{authorbibnamehash}{df1a5fa14bf9347df2ac4f5427a3456c}
+      \strng{authornamehash}{df1a5fa14bf9347df2ac4f5427a3456c}
+      \strng{authorfullhash}{df1a5fa14bf9347df2ac4f5427a3456c}
+      \strng{authorfullhashraw}{df1a5fa14bf9347df2ac4f5427a3456c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cybernetics and Human Knowing}
+      \field{number}{4}
+      \field{title}{Information {{Theory}} Is Abused in Neuroscience}
+      \field{volume}{26}
+      \field{year}{2019}
+      \field{pages}{47\bibrangedash 97}
+      \range{pages}{51}
+    \endentry
+    \entry{rathkopf_what_2020}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c24123a132b7de30590c170e022ac7db}{%
+           family={Rathkopf},
+           familyi={R\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c24123a132b7de30590c170e022ac7db}
+      \strng{fullhash}{c24123a132b7de30590c170e022ac7db}
+      \strng{fullhashraw}{c24123a132b7de30590c170e022ac7db}
+      \strng{bibnamehash}{c24123a132b7de30590c170e022ac7db}
+      \strng{authorbibnamehash}{c24123a132b7de30590c170e022ac7db}
+      \strng{authornamehash}{c24123a132b7de30590c170e022ac7db}
+      \strng{authorfullhash}{c24123a132b7de30590c170e022ac7db}
+      \strng{authorfullhashraw}{c24123a132b7de30590c170e022ac7db}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0167-7411, 1572-8749}
+      \field{journaltitle}{Topoi}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{note}{\url{http://link.springer.com/10.1007/s11245-017-9512-6}}
+      \field{number}{1}
+      \field{title}{What {{Kind}} of {{Information}} Is {{Brain Information}}?}
+      \field{urlday}{29}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{volume}{39}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{95\bibrangedash 102}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1007/s11245-017-9512-6
+      \endverb
+      \verb{file}
+      \verb /home/danny/snap/zotero-snap/common/Zotero/storage/79P56A3U/Rathkopf - 2020 - What Kind of Information is Brain Information.pdf
+      \endverb
+    \endentry
+    \entry{carcassi_variability_2021}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=89545c7ef6f26bb3d07a6831bc6fa161}{%
+           family={Carcassi},
+           familyi={C\bibinitperiod},
+           given={Gabriele},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa960056ec64969ce84c34f3503bd32d}{%
+           family={Aidala},
+           familyi={A\bibinitperiod},
+           given={Christine\bibnamedelima A},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2cfbf8115b853d76094e6b8dbfcd3f56}{%
+           family={Barbour},
+           familyi={B\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{281be341ae5737146163bc67cf884119}
+      \strng{fullhash}{1f7fbd302a31c94755e7b11a43d4ffc1}
+      \strng{fullhashraw}{1f7fbd302a31c94755e7b11a43d4ffc1}
+      \strng{bibnamehash}{1f7fbd302a31c94755e7b11a43d4ffc1}
+      \strng{authorbibnamehash}{1f7fbd302a31c94755e7b11a43d4ffc1}
+      \strng{authornamehash}{281be341ae5737146163bc67cf884119}
+      \strng{authorfullhash}{1f7fbd302a31c94755e7b11a43d4ffc1}
+      \strng{authorfullhashraw}{1f7fbd302a31c94755e7b11a43d4ffc1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract The Shannon entropy, one of the cornerstones of information theory, is widely used in physics, particularly in statistical mechanics. Yet its characterization and connection to physics remain vague, leaving ample room for misconceptions and misunderstanding. We will show that the Shannon entropy can be fully understood as measuring the variability of the elements within a given distribution: it characterizes how much variation can be found within a collection of objects. We will see that it is the only indicator that is continuous and linear, that it quantifies the number of yes/no questions (i.e. bits) that are needed to identify an element within the distribution, and we will see how applying this concept to statistical mechanics in different ways leads to the Boltzmann, Gibbs and von Neumann entropies.}
+      \field{issn}{0143-0807, 1361-6404}
+      \field{journaltitle}{European Journal of Physics}
+      \field{month}{7}
+      \field{note}{\url{https://iopscience.iop.org/article/10.1088/1361-6404/abe361}}
+      \field{number}{4}
+      \field{title}{Variability as a Better Characterization of {{Shannon}} Entropy}
+      \field{urlday}{6}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{volume}{42}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{045102}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1361-6404/abe361
+      \endverb
+      \verb{file}
+      \verb /home/danny/snap/zotero-snap/common/Zotero/storage/96KDRIAX/Carcassi et al. - 2021 - Variability as a better characterization of Shanno.pdf
+      \endverb
+    \endentry
+    \entry{Mann2023}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=16eb2aa6ffa0a87a36d0dccfc806d50a}{%
+           family={Mann},
+           familyi={M\bibinitperiod},
+           given={S.\bibnamedelimi F.},
+           giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{16eb2aa6ffa0a87a36d0dccfc806d50a}
+      \strng{fullhash}{16eb2aa6ffa0a87a36d0dccfc806d50a}
+      \strng{fullhashraw}{16eb2aa6ffa0a87a36d0dccfc806d50a}
+      \strng{bibnamehash}{16eb2aa6ffa0a87a36d0dccfc806d50a}
+      \strng{authorbibnamehash}{16eb2aa6ffa0a87a36d0dccfc806d50a}
+      \strng{authornamehash}{16eb2aa6ffa0a87a36d0dccfc806d50a}
+      \strng{authorfullhash}{16eb2aa6ffa0a87a36d0dccfc806d50a}
+      \strng{authorfullhashraw}{16eb2aa6ffa0a87a36d0dccfc806d50a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophy and the Mind Sciences}
+      \field{title}{The Relevance of Communication Theory for Theories of Representation}
+      \field{volume}{4}
+      \field{year}{2023}
+      \field{pages}{32}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.33735/phimisci.2023.10992
+      \endverb
+    \endentry
+    \entry{axler_linear_2024}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2ef085dcf813cb6d9946f19baf038343}{%
+           family={Axler},
+           familyi={A\bibinitperiod},
+           given={Sheldon\bibnamedelima Jay},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature}%
+      }
+      \strng{namehash}{2ef085dcf813cb6d9946f19baf038343}
+      \strng{fullhash}{2ef085dcf813cb6d9946f19baf038343}
+      \strng{fullhashraw}{2ef085dcf813cb6d9946f19baf038343}
+      \strng{bibnamehash}{2ef085dcf813cb6d9946f19baf038343}
+      \strng{authorbibnamehash}{2ef085dcf813cb6d9946f19baf038343}
+      \strng{authornamehash}{2ef085dcf813cb6d9946f19baf038343}
+      \strng{authorfullhash}{2ef085dcf813cb6d9946f19baf038343}
+      \strng{authorfullhashraw}{2ef085dcf813cb6d9946f19baf038343}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Now available in Open Access, this best-selling textbook for a second course in linear algebra is aimed at undergraduate math majors and graduate students. The fourth edition gives an expanded treatment of the singular value decomposition and its consequences. It includes a new chapter on multilinear algebra, treating bilinear forms, quadratic forms, tensor products, and an approach to determinants via alternating multilinear forms. This new edition also increases the use of the minimal polynomial to provide cleaner proofs of multiple results. Also, over 250 new exercises have been added. The novel approach taken here banishes determinants to the end of the book. The text focuses on the central goal of linear algebra: understanding the structure of linear operators on finite-dimensional vector spaces. The author has taken unusual care to motivate concepts and simplify proofs. A variety of interesting exercises in each chapter helps students understand and manipulate the objects of linear algebra. Beautiful formatting creates pages with an unusually student-friendly appearance in both print and electronic versions. No prerequisites are assumed other than the usual demand for suitable mathematical maturity. The text starts by discussing vector spaces, linear independence, span, basis, and dimension. The book then deals with linear maps, eigenvalues, and eigenvectors. Inner-product spaces are introduced, leading to the finite-dimensional spectral theorem and its consequences. Generalized eigenvectors are then used to provide insight into the structure of a linear operator. From the reviews of previous editions: Altogether, the text is a didactic masterpiece. --- zbMATH The determinant-free proofs are elegant and intuitive. --- American Mathematical Monthly The most original linear algebra book to appear in years, it certainly belongs in every undergraduate library --- CHOICE}
+      \field{isbn}{978-3-031-41025-3 978-3-031-41026-0}
+      \field{langid}{english}
+      \field{series}{Undergraduate {{Texts}} in {{Mathematics}}}
+      \field{title}{Linear {{Algebra Done Right}}}
+      \field{year}{2024}
+    \endentry
+  \enddatalist
+  \missing{Craver}
+  \missing{millikan_pushme-pullyou_2017}
+\endrefsection
+\endinput
+
