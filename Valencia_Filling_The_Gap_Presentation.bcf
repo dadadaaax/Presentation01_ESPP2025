@@ -3070,50 +3070,6 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">biblioteka.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">mackay_limiting_1952</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">dretske_knowledge_1981</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">carcassi_variability_2021</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">millikan_pushme-pullyou_2017</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">Mann2023</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">martinez_representations_2019</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">Dretske1981</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">ramsey_representation_2007</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">gladziejewski_explaining_2015-1</bcf:citekey>
-    <bcf:citekey order="9" intorder="2">gladziejewski_structural_2017</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">hartley_transmission_1928</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">carcassi_variability_2021</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">rathkopf_what_2020</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">dennett_bacteria_2017</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">dennett_bacteria_2017</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">shannon_mathematical_1948</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">machamer_thinking_2000</bcf:citekey>
-    <bcf:citekey order="16" intorder="2">glennan_rethinking_2002</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">martinez_representations_2019</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">nizami_information_2019</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">shannon_mathematical_1948</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">machamer_thinking_2000</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">glennan_rethinking_2002</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">MacKay2003</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">MacKay2003</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">harnad_symbol_1990</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">shannon_mathematical_1948</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">kaplan_explanatory_2011-1</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">nizami_information_2019</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">nizami_information_2019</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">nizami_information_2019</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">nizami_information_2019</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">nizami_information_2019</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">ueki_how_2010</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">janssen_compositionality_2012</bcf:citekey>
-    <bcf:citekey order="33" intorder="2">janssen_frege_2001</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">axler_linear_2024</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">smolensky_tensor_1990</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">mcculloch_logical_1943</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">mikolov2013a</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">mikolov2013a</bcf:citekey>
-    <bcf:citekey order="39" intorder="1">rumelhart_model_1973</bcf:citekey>
-    <bcf:citekey order="40" intorder="1">mcculloch_logical_1943</bcf:citekey>
-    <bcf:citekey order="41" intorder="1">Craver</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="ynt">
@@ -3147,16 +3103,6 @@
                 type="entry"
                 sortingtemplatename="ynt"
                 sortingnamekeytemplatename="apasortcite"
-                labelprefix=""
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global"
-                namehashtemplatename="global">
-  </bcf:datalist>
-  <bcf:datalist section="0"
-                name="ynt/global//global/global/global"
-                type="entry"
-                sortingtemplatename="ynt"
-                sortingnamekeytemplatename="global"
                 labelprefix=""
                 uniquenametemplatename="global"
                 labelalphanametemplatename="global"

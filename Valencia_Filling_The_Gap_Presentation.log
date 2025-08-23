@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.21)  20 AUG 2025 21:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.21)  24 AUG 2025 01:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -626,6 +626,8 @@ File: caption-beamer.sto 2022/01/06 v2.0c Adaption of the caption package to the
 Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
  (/usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.sty
@@ -894,24 +896,24 @@ Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
  (./Valencia_Filling_The_Gap_Presentation.aux)
 \openout1 = `Valencia_Filling_The_Gap_Presentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -966,52 +968,53 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 51.
+Package hyperref Info: Link coloring OFF on input line 55.
+ (./Valencia_Filling_The_Gap_Presentation.out) (./Valencia_Filling_The_Gap_Presentation.out)
 \@outlinefile=\write6
 \openout6 = `Valencia_Filling_The_Gap_Presentation.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 51.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 55.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 51.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 55.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 51.
+(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 55.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 51.
+(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 51.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 51.
+(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 55.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 51.
+(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 51.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 51.
+(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 55.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 51.
+(Font)                  OT1/cmr/m/it --> T1/cmss/m/it on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 51.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 51.
+(Font)                  OT1/cmr/bx/it --> T1/cmss/m/it on input line 55.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 51.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 51.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 55.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 51.
+(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 55.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 51.
+(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 51.
+(Font)                  OT1/cmss/b/n --> T1/cmr/b/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 51.
+(Font)                  T1/cmss/b/n --> T1/cmss/b/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 51.
+(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 51.
+(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 51.
+(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 55.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -1056,515 +1059,18 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Valencia_Filling_The_Gap_Presentation.bbl' found.
- (./Valencia_Filling_The_Gap_Presentation.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Craver
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                millikan_pushme-pullyou_2017
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
-Package biblatex Info: Reference section=0 on input line 51.
-Package biblatex Info: Reference segment=0 on input line 51.
+ (./Valencia_Filling_The_Gap_Presentation.bbl)
+Package biblatex Info: Reference section=0 on input line 55.
+Package biblatex Info: Reference segment=0 on input line 55.
  (./Valencia_Filling_The_Gap_Presentation.nav)
+Overfull \vbox (10.67pt too high) detected at line 112
+ []
+
+
 
 [1
 
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-[2
-
-]
-
-[3
-
-]
-
-[4
-
-]
-
-[5
-
-]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 162.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 162.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-
-[6
-
-]
-
-LaTeX Warning: Citation 'millikan_pushme-pullyou_2017' on page 7 undefined on input line 183.
-
-
-
-[7
-
-]
-
-[8
-
-]
-
-[9
-
-]
-<images/mucha.jpg, id=77, 454.69875pt x 457.71pt>
-File: images/mucha.jpg Graphic file (type jpg)
-<use images/mucha.jpg>
-Package pdftex.def Info: images/mucha.jpg  used on input line 253.
-(pdftex.def)             Requested size: 56.9055pt x 57.27646pt.
-<images/kropki.jpg, id=78, 389.455pt x 389.455pt>
-File: images/kropki.jpg Graphic file (type jpg)
-<use images/kropki.jpg>
-Package pdftex.def Info: images/kropki.jpg  used on input line 253.
-(pdftex.def)             Requested size: 56.9055pt x 56.90036pt.
-<images/zaba.jpg, id=79, 135.1449pt x 119.7273pt>
-File: images/zaba.jpg Graphic file (type jpg)
-<use images/zaba.jpg>
-Package pdftex.def Info: images/zaba.jpg  used on input line 253.
-(pdftex.def)             Requested size: 85.35826pt x 75.62224pt.
-
-Overfull \hbox (46.25296pt too wide) in paragraph at lines 253--253
-[]  
- []
-
-
-
-[10
-
- <./images/mucha.jpg> <./images/kropki.jpg> <./images/zaba.jpg>]
-
-[11
-
-]
-
-[12
-
-]
-
-[13
-
-]
-
-[14
-
-]
-
-[15
-
-]
-
-[16
-
-]
-
-[17
-
-]
-
-[18
-
-]
-
-[19
-
-]
-
-[20
-
-]
-<images/entropia_1.png, id=158, 316.18124pt x 307.1475pt>
-File: images/entropia_1.png Graphic file (type png)
-<use images/entropia_1.png>
-Package pdftex.def Info: images/entropia_1.png  used on input line 437.
-(pdftex.def)             Requested size: 99.58464pt x 96.7379pt.
-<images/entropia_2.png, id=159, 313.17pt x 307.1475pt>
-File: images/entropia_2.png Graphic file (type png)
-<use images/entropia_2.png>
-Package pdftex.def Info: images/entropia_2.png  used on input line 437.
-(pdftex.def)             Requested size: 99.58464pt x 97.67056pt.
-
-
-[21
-
- <./images/entropia_1.png> <./images/entropia_2.png>]
-
-[22
-
-]
-Overfull \vbox (16.35391pt too high) detected at line 478
- []
-
-
-
-[23
-
-]
-<images/latexImage_9d58f9e54772e4e91104b2b791c5c63e.png, id=185, 862.22125pt x 281.05pt>
-File: images/latexImage_9d58f9e54772e4e91104b2b791c5c63e.png Graphic file (type png)
-<use images/latexImage_9d58f9e54772e4e91104b2b791c5c63e.png>
-Package pdftex.def Info: images/latexImage_9d58f9e54772e4e91104b2b791c5c63e.png  used on input line 504.
-(pdftex.def)             Requested size: 398.3386pt x 129.84206pt.
-
-
-[24
-
- <./images/latexImage_9d58f9e54772e4e91104b2b791c5c63e.png>]
-
-[25
-
-]
-Overfull \hbox (37.78815pt too wide) in paragraph at lines 550--550
- [] 
- []
-
-
-
-[26
-
-]
-Overfull \hbox (37.78815pt too wide) in paragraph at lines 585--585
- [] 
- []
-
-/home/danny/Dokumenty/WORKS/ESPP2025/Valencia_Filling_The_Gap_Presentation.tex:585: Undefined control sequence.
-\beamer@doifinframe ...cture} \end {center} \draw 
-                                                  [->, red, thick] (encoder)...
-l.585         \end{frame}
-                         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \vbox (52.24313pt too high) detected at line 585
- []
-
-
-
-[27
-
-]
-<images/Dilbert.png, id=216, 918.43124pt x 304.13625pt>
-File: images/Dilbert.png Graphic file (type png)
-<use images/Dilbert.png>
-Package pdftex.def Info: images/Dilbert.png  used on input line 609.
-(pdftex.def)             Requested size: 398.3386pt x 131.90837pt.
-
-Overfull \vbox (2.56348pt too high) detected at line 609
- []
-
-
-
-[28
-
- <./images/Dilbert.png>]
-
-[29
-
-]
-
-[30
-
-]
-
-[31
-
-]
-
-[32
-
-]
-
-[33
-
-]
-<images/majority_vote.png, id=255, 1146.2825pt x 347.2975pt>
-File: images/majority_vote.png Graphic file (type png)
-<use images/majority_vote.png>
-Package pdftex.def Info: images/majority_vote.png  used on input line 716.
-(pdftex.def)             Requested size: 239.00558pt x 72.40999pt.
-<images/improving.png, id=256, 1133.23375pt x 438.63875pt>
-File: images/improving.png Graphic file (type png)
-<use images/improving.png>
-Package pdftex.def Info: images/improving.png  used on input line 716.
-(pdftex.def)             Requested size: 239.00558pt x 92.51173pt.
-
-Overfull \vbox (45.1771pt too high) detected at line 716
- []
-
-
-
-[34
-
- <./images/majority_vote.png> <./images/improving.png>]
-
-[35
-
-]
-<images/Nizami_table1.png, id=270, 1502.61375pt x 850.17625pt>
-File: images/Nizami_table1.png Graphic file (type png)
-<use images/Nizami_table1.png>
-Package pdftex.def Info: images/Nizami_table1.png  used on input line 752.
-(pdftex.def)             Requested size: 398.3386pt x 225.37347pt.
-
-Overfull \vbox (84.4532pt too high) detected at line 752
- []
-
-
-
-[36
-
- <./images/Nizami_table1.png>]
-<images/Nizami_table2.png, id=278, 1503.6175pt x 970.62625pt>
-File: images/Nizami_table2.png Graphic file (type png)
-<use images/Nizami_table2.png>
-Package pdftex.def Info: images/Nizami_table2.png  used on input line 764.
-(pdftex.def)             Requested size: 398.3386pt x 257.14067pt.
-
-Overfull \vbox (77.79619pt too high) detected at line 764
- []
-
-
-
-[37
-
- <./images/Nizami_table2.png>]
-<images/phototaxis.png, id=287, 1303.87125pt x 558.085pt>
-File: images/phototaxis.png Graphic file (type png)
-<use images/phototaxis.png>
-Package pdftex.def Info: images/phototaxis.png  used on input line 797.
-(pdftex.def)             Requested size: 199.1693pt x 85.24196pt.
-
-
-LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 797.
-
-LaTeX Font Info:    Trying to load font information for OMS+cmss on input line 797.
-LaTeX Font Info:    No file OMScmss.fd. on input line 797.
-
-LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbraceleft' on input line 797.
-
-
-
-[38
-
- <./images/phototaxis.png>]
-
-[39
-
-]
-Overfull \hbox (17.29219pt too wide) in paragraph at lines 848--848
-[]|\OT1/cmss/bx/n/9 Mathematical/Structural
- []
-
-
-Underfull \hbox (badness 2158) in paragraph at lines 848--848
-[]|\OT1/cmss/m/n/9 Linear maps, vec-tor
- []
-
-
-Overfull \hbox (7.54945pt too wide) in paragraph at lines 848--848
-[]|\OT1/cmss/m/n/9 Compositionality
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 848--848
-[]|\OT1/cmss/m/n/9 Syntax, se-man-tics,
- []
-
-
-Overfull \hbox (3.7648pt too wide) in paragraph at lines 848--848
-[]|\OT1/cmss/m/n/9 Homomorphism| 
- []
-
-
-Underfull \hbox (badness 2486) in paragraph at lines 848--848
-[]|\OT1/cmss/m/n/9 A structure-preserving map
- []
-
-
-
-[40
-
-]
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <9> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 888.
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 888.
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <5> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 888.
-
-Overfull \hbox (52.23076pt too wide) in paragraph at lines 888--888
-[]  
- []
-
-
-
-[41
-
-]
-<images/cnn.jpg, id=324, 618.31pt x 507.8975pt>
-File: images/cnn.jpg Graphic file (type jpg)
-<use images/cnn.jpg>
-Package pdftex.def Info: images/cnn.jpg  used on input line 913.
-(pdftex.def)             Requested size: 199.1693pt x 163.6pt.
-
-
-[42
-
- <./images/cnn.jpg>]
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 933.
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <7> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 933.
-
-
-[43
-
-]
-<images/latexImage_aad051c66a8ab8fe36b14843445faa7f.png, id=337, 717.43031pt x 359.09157pt>
-File: images/latexImage_aad051c66a8ab8fe36b14843445faa7f.png Graphic file (type png)
-<use images/latexImage_aad051c66a8ab8fe36b14843445faa7f.png>
-Package pdftex.def Info: images/latexImage_aad051c66a8ab8fe36b14843445faa7f.png  used on input line 961.
-(pdftex.def)             Requested size: 199.1693pt x 99.6847pt.
-
-
-[44
-
- <./images/latexImage_aad051c66a8ab8fe36b14843445faa7f.png (PNG copy)>]
-<images/latexImage_63d4c13d6261c28a5b1ff9f3f41e4f0d.png, id=344, 1053.9375pt x 451.6875pt>
-File: images/latexImage_63d4c13d6261c28a5b1ff9f3f41e4f0d.png Graphic file (type png)
-<use images/latexImage_63d4c13d6261c28a5b1ff9f3f41e4f0d.png>
-Package pdftex.def Info: images/latexImage_63d4c13d6261c28a5b1ff9f3f41e4f0d.png  used on input line 976.
-(pdftex.def)             Requested size: 284.52756pt x 121.94347pt.
-
-
-[45
-
- <./images/latexImage_63d4c13d6261c28a5b1ff9f3f41e4f0d.png (PNG copy)>]
-
-[46
-
-]
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <20.74> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 1002.
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <14.4> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 1002.
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <12> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 1002.
-
-
-[47
-
-]
-
-[48
-
-]
-
-[49
-
-]
-
-[50
-
-]
-
-[51
-
-]
-<images/anoisy_adding.png, id=389, 844.8363pt x 575.9919pt>
-File: images/anoisy_adding.png Graphic file (type png)
-<use images/anoisy_adding.png>
-Package pdftex.def Info: images/anoisy_adding.png  used on input line 1142.
-(pdftex.def)             Requested size: 278.83578pt x 190.10428pt.
-
-Overfull \vbox (27.8241pt too high) detected at line 1142
- []
-
-
-
-[52
-
- <./images/anoisy_adding.png>]
-
-/home/danny/Dokumenty/WORKS/ESPP2025/Valencia_Filling_The_Gap_Presentation.tex:1161: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1161     \end{frame}
-                      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation 'Craver' on page 53 undefined on input line 1161.
-
-
-
-[53
-
-]
-<images/frog_world.png, id=403, 1541.76pt x 1027.84pt>
-File: images/frog_world.png Graphic file (type png)
-<use images/frog_world.png>
-Package pdftex.def Info: images/frog_world.png  used on input line 1172.
-(pdftex.def)             Requested size: 318.67209pt x 212.43375pt.
-
-Overfull \vbox (9.63683pt too high) detected at line 1172
- []
-
-
-
-[54
-
- <./images/frog_world.png (PNG copy)>]
-
-[55
-
- </usr/local/texlive/2025/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
-
-[56
-
-
-]
-
-[57
-
-
-]
-
-[58
-
-
-]
-
-[59
-
-
-]
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
 \tf@nav=\write7
 \openout7 = `Valencia_Filling_The_Gap_Presentation.nav'.
 
@@ -1579,46 +1085,25 @@ Overfull \vbox (9.63683pt too high) detected at line 1172
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `Valencia_Filling_The_Gap_Presentation.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Valencia_Filling_The_Gap_Presentation.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  B1B3045639CBF869E1A826FDA77B9885;977.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                Valencia_Filling_The_Gap_Presentation
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `Valencia_Filling_The_Gap_Presentation.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'Valencia_Filling_The_Gap_Presentation.run.xml'.
 \openout1 = `Valencia_Filling_The_Gap_Presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35876 strings out of 475095
- 723788 string characters out of 5763909
- 1602586 words of memory out of 5000000
- 58155 multiletter control sequences out of 15000+600000
- 576967 words of font info for 102 fonts, out of 8000000 for 9000
+ 34825 strings out of 475095
+ 696184 string characters out of 5763909
+ 1588935 words of memory out of 5000000
+ 57271 multiletter control sequences out of 15000+600000
+ 563765 words of font info for 43 fonts, out of 8000000 for 9000
  56 hyphenation exceptions out of 8191
- 101i,21n,107p,2744b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Valencia_Filling_The_Gap_Presentation.pdf (59 pages, 5794736 bytes).
+ 101i,11n,107p,763b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb>
+Output written on Valencia_Filling_The_Gap_Presentation.pdf (1 page, 23980 bytes).
 PDF statistics:
- 627 PDF objects out of 1000 (max. 8388607)
- 470 compressed objects within 5 object streams
- 151 named destinations out of 1000 (max. 500000)
- 128 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
+ 5 named destinations out of 1000 (max. 500000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 

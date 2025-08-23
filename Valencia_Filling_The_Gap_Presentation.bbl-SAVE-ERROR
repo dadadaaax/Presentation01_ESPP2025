@@ -1155,6 +1155,48 @@
       \field{title}{Linear {{Algebra Done Right}}}
       \field{year}{2024}
     \endentry
+    \entry{coecke_mathematical_nodate}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c8d0d6b0d8ca354b544208d9fa6abd9d}{%
+           family={Coecke},
+           familyi={C\bibinitperiod},
+           given={Bob},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1269c03f4d89abba55e31d4b3f8037e6}{%
+           family={Sadrzadeh},
+           familyi={S\bibinitperiod},
+           given={Mehrnoosh},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dda71bed5f391f7f7cdba143a71fad0a}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7c7f34b128c8abc3346fc67b0d439586}
+      \strng{fullhash}{c0f9dacb617c97e70fed8e2f5fcfdf30}
+      \strng{fullhashraw}{c0f9dacb617c97e70fed8e2f5fcfdf30}
+      \strng{bibnamehash}{c0f9dacb617c97e70fed8e2f5fcfdf30}
+      \strng{authorbibnamehash}{c0f9dacb617c97e70fed8e2f5fcfdf30}
+      \strng{authornamehash}{7c7f34b128c8abc3346fc67b0d439586}
+      \strng{authorfullhash}{c0f9dacb617c97e70fed8e2f5fcfdf30}
+      \strng{authorfullhashraw}{c0f9dacb617c97e70fed8e2f5fcfdf30}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We propose a mathematical framework for a unification of the distributional theory of meaning in terms of vector space models, and a compositional theory for grammatical types, for which we rely on the algebra of Pregroups, introduced by Lambek. This mathematical framework enables us to compute the meaning of a well-typed sentence from the meanings of its constituents. Concretely, the type reductions of Pregroups are `lifted' to morphisms in a category, a procedure that transforms meanings of constituents into a meaning of the (well-typed) whole. Importantly, meanings of whole sentences live in a single space, independent of the grammatical structure of the sentence. Hence the inner-product can be used to compare meanings of arbitrary sentences, as it is for comparing the meanings of words in the distributional model. The mathematical structure we employ admits a purely diagrammatic calculus which exposes how the information flows between the words in a sentence in order to make up the meaning of the whole sentence. A variation of our `categorical model' which involves constraining the scalars of the vector spaces to the semiring of Booleans results in a Montague-style Boolean-valued semantics.}
+      \field{langid}{english}
+      \field{title}{Mathematical {{Foundations}} for a {{Compositional Distributional Model}} of {{Meaning}}}
+      \verb{file}
+      \verb /home/danny/snap/zotero-snap/common/Zotero/storage/PBUADYXR/Coecke et al. - Mathematical Foundations for a Compositional Distributional Model of Meaning.pdf
+      \endverb
+    \endentry
   \enddatalist
   \datalist[entry]{ynt/global//global/global/global}
     \entry{hartley_transmission_1928}{article}{}{}
@@ -2293,8 +2335,52 @@
       \field{title}{Linear {{Algebra Done Right}}}
       \field{year}{2024}
     \endentry
+    \entry{coecke_mathematical_nodate}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c8d0d6b0d8ca354b544208d9fa6abd9d}{%
+           family={Coecke},
+           familyi={C\bibinitperiod},
+           given={Bob},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1269c03f4d89abba55e31d4b3f8037e6}{%
+           family={Sadrzadeh},
+           familyi={S\bibinitperiod},
+           given={Mehrnoosh},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dda71bed5f391f7f7cdba143a71fad0a}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7c7f34b128c8abc3346fc67b0d439586}
+      \strng{fullhash}{c0f9dacb617c97e70fed8e2f5fcfdf30}
+      \strng{fullhashraw}{c0f9dacb617c97e70fed8e2f5fcfdf30}
+      \strng{bibnamehash}{c0f9dacb617c97e70fed8e2f5fcfdf30}
+      \strng{authorbibnamehash}{c0f9dacb617c97e70fed8e2f5fcfdf30}
+      \strng{authornamehash}{7c7f34b128c8abc3346fc67b0d439586}
+      \strng{authorfullhash}{c0f9dacb617c97e70fed8e2f5fcfdf30}
+      \strng{authorfullhashraw}{c0f9dacb617c97e70fed8e2f5fcfdf30}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We propose a mathematical framework for a unification of the distributional theory of meaning in terms of vector space models, and a compositional theory for grammatical types, for which we rely on the algebra of Pregroups, introduced by Lambek. This mathematical framework enables us to compute the meaning of a well-typed sentence from the meanings of its constituents. Concretely, the type reductions of Pregroups are `lifted' to morphisms in a category, a procedure that transforms meanings of constituents into a meaning of the (well-typed) whole. Importantly, meanings of whole sentences live in a single space, independent of the grammatical structure of the sentence. Hence the inner-product can be used to compare meanings of arbitrary sentences, as it is for comparing the meanings of words in the distributional model. The mathematical structure we employ admits a purely diagrammatic calculus which exposes how the information flows between the words in a sentence in order to make up the meaning of the whole sentence. A variation of our `categorical model' which involves constraining the scalars of the vector spaces to the semiring of Booleans results in a Montague-style Boolean-valued semantics.}
+      \field{langid}{english}
+      \field{title}{Mathematical {{Foundations}} for a {{Compositional Distributional Model}} of {{Meaning}}}
+      \verb{file}
+      \verb /home/danny/snap/zotero-snap/common/Zotero/storage/PBUADYXR/Coecke et al. - Mathematical Foundations for a Compositional Distributional Model of Meaning.pdf
+      \endverb
+    \endentry
   \enddatalist
   \missing{Craver}
+  \missing{brentano_psychology_1995}
+  \missing{jekely_neural_2013}
   \missing{millikan_pushme-pullyou_2017}
 \endrefsection
 \endinput
