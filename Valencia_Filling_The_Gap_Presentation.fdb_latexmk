@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber Valencia_Filling_The_Gap_Presentation"] 1755994818.12752 "Valencia_Filling_The_Gap_Presentation.bcf" "Valencia_Filling_The_Gap_Presentation.bbl" "Valencia_Filling_The_Gap_Presentation" 1755994878.45111 0
-  "Valencia_Filling_The_Gap_Presentation.bcf" 1755994878.2476 132796 da78256a641da069011ceedf46555de9 "pdflatex"
+["biber Valencia_Filling_The_Gap_Presentation"] 1755994818.12752 "Valencia_Filling_The_Gap_Presentation.bcf" "Valencia_Filling_The_Gap_Presentation.bbl" "Valencia_Filling_The_Gap_Presentation" 1756070164.12839 0
+  "Valencia_Filling_The_Gap_Presentation.bcf" 1756070164.01504 132796 da78256a641da069011ceedf46555de9 "pdflatex"
   (generated)
   "Valencia_Filling_The_Gap_Presentation.bbl"
   "Valencia_Filling_The_Gap_Presentation.blg"
   (rewritten before read)
-["pdflatex"] 1755994875.17883 "/home/danny/Dokumenty/WORKS/ESPP2025/Valencia_Filling_The_Gap_Presentation.tex" "Valencia_Filling_The_Gap_Presentation.pdf" "Valencia_Filling_The_Gap_Presentation" 1755994878.45186 0
-  "/home/danny/Dokumenty/WORKS/ESPP2025/Valencia_Filling_The_Gap_Presentation.tex" 1755994862.94794 58994 c0c676557c932b80d4a0caf034617f5b ""
+["pdflatex"] 1756070162.47219 "/home/danny/Dokumenty/WORKS/Presentation01_ESPP2025/Valencia_Filling_The_Gap_Presentation.tex" "Valencia_Filling_The_Gap_Presentation.pdf" "Valencia_Filling_The_Gap_Presentation" 1756070164.12912 0
+  "/home/danny/Dokumenty/WORKS/Presentation01_ESPP2025/Valencia_Filling_The_Gap_Presentation.tex" 1756070158.22697 61120 4cef03e9003d70172c16a1211a4de118 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsi0500.tfm" 1136768653 3584 cddc42a948742f3f690b828feeaf2449 ""
@@ -234,13 +234,13 @@
   "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1739380943 42148 61becc7c670cd061bb319c643c27fdd4 ""
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1742578390 331451 e5b4ef9eed030c6e9bdc125cccccb664 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1742578503 1990952 d2f9d43820edc19f38078a8cfb41ee29 ""
-  "/usr/local/texlive/2025/texmf.cnf" 1742578389.67175 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "Valencia_Filling_The_Gap_Presentation.aux" 1755994878.2436 1152 5f6a57ecae8d5195b5d7dfaba8dbaa0f "pdflatex"
-  "Valencia_Filling_The_Gap_Presentation.bbl" 1755994821.05166 466 76d65a242ec496c9b4361af646ff12cb "biber Valencia_Filling_The_Gap_Presentation"
-  "Valencia_Filling_The_Gap_Presentation.nav" 1755994878.2476 396 8b8a55c34e984ffb3044a902e3912ef6 "pdflatex"
-  "Valencia_Filling_The_Gap_Presentation.out" 1755994877.51981 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Valencia_Filling_The_Gap_Presentation.run.xml" 1755994878.2476 2658 235f392ed5ef52f931cdc5e17a995c8f "pdflatex"
-  "Valencia_Filling_The_Gap_Presentation.tex" 1755994862.94794 58994 c0c676557c932b80d4a0caf034617f5b ""
+  "/usr/local/texlive/2025/texmf.cnf" 1742578389 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
+  "Valencia_Filling_The_Gap_Presentation.aux" 1756070164.01504 1152 417861b1ce2ce5d9a95b5506599cbd10 "pdflatex"
+  "Valencia_Filling_The_Gap_Presentation.bbl" 1756069946.76043 466 76d65a242ec496c9b4361af646ff12cb "biber Valencia_Filling_The_Gap_Presentation"
+  "Valencia_Filling_The_Gap_Presentation.nav" 1756070164.01504 396 70667e17d2caa99f56b9168cb8f09b0f "pdflatex"
+  "Valencia_Filling_The_Gap_Presentation.out" 1756070163.69904 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Valencia_Filling_The_Gap_Presentation.run.xml" 1756070164.01504 2658 235f392ed5ef52f931cdc5e17a995c8f "pdflatex"
+  "Valencia_Filling_The_Gap_Presentation.tex" 1756070158.22697 61120 4cef03e9003d70172c16a1211a4de118 ""
   (generated)
   "Valencia_Filling_The_Gap_Presentation.aux"
   "Valencia_Filling_The_Gap_Presentation.bcf"

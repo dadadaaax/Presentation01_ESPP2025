@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.21)  24 AUG 2025 02:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.21)  24 AUG 2025 23:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/danny/Dokumenty/WORKS/ESPP2025/Valencia_Filling_The_Gap_Presentation.tex
-(/home/danny/Dokumenty/WORKS/ESPP2025/Valencia_Filling_The_Gap_Presentation.tex
+**/home/danny/Dokumenty/WORKS/Presentation01_ESPP2025/Valencia_Filling_The_Gap_Presentation.tex
+(/home/danny/Dokumenty/WORKS/Presentation01_ESPP2025/Valencia_Filling_The_Gap_Presentation.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/beamer/beamer.cls
@@ -1071,15 +1071,15 @@ Overfull \vbox (10.67pt too high) detected at line 112
 [1
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 159.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 174.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 159.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 174.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \vbox (141.03378pt too high) detected at line 159
+Overfull \vbox (141.03378pt too high) detected at line 174
  []
 
 
@@ -1108,13 +1108,13 @@ Package logreq Info: Writing requests to 'Valencia_Filling_The_Gap_Presentation.
 
  ) 
 Here is how much of TeX's memory you used:
- 34895 strings out of 475095
- 697367 string characters out of 5763909
- 1588979 words of memory out of 5000000
- 57319 multiletter control sequences out of 15000+600000
+ 35327 strings out of 475095
+ 711290 string characters out of 5763909
+ 1588980 words of memory out of 5000000
+ 57751 multiletter control sequences out of 15000+600000
  569309 words of font info for 57 fonts, out of 8000000 for 9000
  56 hyphenation exceptions out of 8191
- 101i,11n,107p,763b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,11n,107p,778b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsi1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb>
 Output written on Valencia_Filling_The_Gap_Presentation.pdf (2 pages, 56598 bytes).
 PDF statistics:

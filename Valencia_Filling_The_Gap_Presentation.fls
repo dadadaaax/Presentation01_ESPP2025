@@ -1,8 +1,8 @@
-PWD /home/danny/Dokumenty/WORKS/ESPP2025
+PWD /home/danny/Dokumenty/WORKS/Presentation01_ESPP2025
 INPUT /usr/local/texlive/2025/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /home/danny/Dokumenty/WORKS/ESPP2025/Valencia_Filling_The_Gap_Presentation.tex
+INPUT /home/danny/Dokumenty/WORKS/Presentation01_ESPP2025/Valencia_Filling_The_Gap_Presentation.tex
 OUTPUT Valencia_Filling_The_Gap_Presentation.log
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/beamer/beamer.cls
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/beamer/beamer.cls
