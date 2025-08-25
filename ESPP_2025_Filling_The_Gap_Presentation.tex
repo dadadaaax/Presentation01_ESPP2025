@@ -1,10 +1,10 @@
-\documentclass[10pt, aspectratio=169]{beamer}
+\documentclass[10pt, aspectratio=169, handout]{beamer}
 \usepackage{amsmath}
 \usepackage{tikz}
 
 \usepackage{setspace}
 \linespread{0.93} 
-\usetikzlibrary{shapes.geometric, arrows, positioning}
+\usetikzlibrary{shapes.geometric, arrows, positioning, arrows.meta}
 
 % \usepackage{neuralnetwork}
 \usepackage[table]{xcolor}
@@ -17,8 +17,6 @@
 ]{biblatex}
 
 \addbibresource{biblioteka.bib} % Ensure the file 'biblioteka.bib' exists in the same directory
-
-
 
 %Define theme and color settings
 \usetheme{boxes}
@@ -50,7 +48,15 @@
 
 \date{\today} 
 
-\includeonlyframes{gap,gap2}
+
+  
+ 
+
+
+
+
+
+\includeonlyframes{shannon_pipeline_source_channel}
 
 \begin{document}
 
@@ -61,36 +67,23 @@
 \end{frame}
 
 
-\begin{frame}[label=overview]{Overview of the presentation}
+\begin{frame}[label=overview]{My talk today}
     \begin{enumerate}
-        \item \textbf{Introduction:} The gap between Shannon and semantic information
-        \item \textbf{Kinds of information and their vehicles:} What carries semantic vs. Shannon information?
-        \item \textbf{The Gap:} Why suspect there are multiple kinds of information?
-        \item \textbf{The pipeline: Shannon model as mechanism} Beyond simple correlation measures
-        \item \textbf{Structural representations:} A candidate for bridging the gap
+        \item \textbf{Kinds of information} Why suspect there are multiple kinds of information?
+        \item \textbf{The pipeline: Shannon  model in the eyes of New Mechanist}
+        \item \textbf{Other examples} Kinds of (cognitive) pipelines
+        \item \textbf{Structural representations:} A candidate for bridging compositional
         \item \textbf{Compositionality:} The missing piece in structural reps
         \item \textbf{Proposal:} Noisy addition as a pathway to linearity (multidimentional spaces)
-        \item \textbf{Conclusions:} One kind of information, multiple processing mechanisms
+        \item \textbf{Conclusions:} One kind of information, many kinds of pipelines 
     \end{enumerate}
 \end{frame}
 
 
-\begin{frame}[label=gap_intro]
-   
 
-    There is a long-debated, deeply entrenched gap  in the foundations of the project of naturalization of semantics and mental content: a gap between so-called semantic information and Shannon information. The gap has had a wide influence in cognitive science since the first applications of information theory to neuroscience (\cite{mackay_limiting_1952}) and in epistemology since Dretske (\cite{dretske_knowledge_1981}).
-
-    Godfrey-Smith and Sterelny (2008), as well as Piccinini and Scarantino (2011), recognize two separate kinds of information: Shannon information and semantic information. 
-
-  
-
-\end{frame}
-
- 
-\begin{frame}[label=gap] {The Gap is a symptom of bigger theoretical explosion}
+\begin{frame}[label=gap] {(Some)kinds of information in the scientific literature}
     
-THERE ARE MANY KINDS, OR ARE THERE?
-
+    
    
         \begin{tikzpicture}
             \node[fill=blue!40, ellipse, inner sep=3pt] at (0, 0) {Shannon information};
@@ -105,21 +98,100 @@ THERE ARE MANY KINDS, OR ARE THERE?
             \node[fill=gray!20, ellipse, inner sep=3pt] at (-2, 3) {Strongly semantic information};
         \end{tikzpicture}
  
-        ... and they may intersect. 
-    My claim is that there is ony one kind of information, what solves the gap problem, (but many qustions remain reformulated )
+        ...and they intersect.
 
-    
 \end{frame}
 
 
-\begin{frame}[label=examples]{Examples and Characterisations of the Kinds of Inforamtion}
+
+ \begin{frame} [label=shannon_pipeline_source_channel] {Shannon pipeline}
+    
+
+
+      
+
+    \begin{tikzpicture}[
+    >=Latex,
+    node distance=0.6cm,
+    block/.style={draw, rounded corners, minimum width=2cm, minimum height=1.2cm, align=center}
+]
+% Blocks
+\node[block] (srcenc) {Source\\Encoder};
+\node[block, right=of srcenc] (chenc) {Channel\\Encoder};
+\node[block, right=of chenc] (chan) {Channel\\$p(y\,|\,x)$};
+\node[block, right=of chan] (chdec) {Channel\\Decoder};
+\node[block, right=of chdec] (srcdec) {Source\\Decoder};
+
+% Left input and right output
+\coordinate[left=1.8cm of srcenc] (vin);
+\coordinate[right=1.8cm of srcdec] (vhat);
+
+% Arrows
+\draw[->] (vin) -- (srcenc) node[midway, above] {$V^n$};
+\draw[->] (srcenc) -- (chenc);
+\draw[->] (chenc) -- (chan) node[midway, above] {$X^{n}(V^{n})$};
+\draw[->] (chan) -- (chdec) node[midway, above] {$Y^{n}$};
+\draw[->] (chdec) -- (srcdec);
+\draw[->] (srcdec) -- (vhat) node[midway, above] {$\hat V^{\,n}$};
+
+\node[block, above=of chan] (noise) {Noise $N$};
+\draw[->] (noise) -- (chan);
+
+\end{tikzpicture}
+ \end{frame}   
+
+ 
+
+
+\begin{frame}[label=gap_intro]
+    There is a long-debated, deeply entrenched gap in the foundations of the project of naturalization of semantics and mental content: a gap between so-called semantic information and Shannon information (\cite{godfrey-smith_biological_2016,piccinini_information_2011}).
+
+     \begin{quote}
+        (...) three notions of information: Shannon information (information according to Shannon’s  communication theory), natural information (truth-entailing semantic information), and  nonnatural information (non-truth-entailing semantic information). \cite{piccinini_information_2011}
+    \end{quote}
+
+    \medskip 
+    
+      
+    The gap has had a wide influence in cognitive science since the first applications of information theory to neuroscience (\cite{mackay_limiting_1952}) and in epistemology since Dretske (\cite{dretske_knowledge_1981}). Recognize two separate kinds of information: Shannon information and semantic information. 
+
+   
+   
+
+  
+
+\end{frame}
+
+
+
+
+    \begin{frame}{Examples and Characterisations of Pipelines }
+
+        -variables
+        -Shannoon model of noisy communication 
+        - algea phototaxix pipelines
+        - jekely IO/IC table
+        - vervet monkeys (compression according to Martinez)
+        - Convolutional Neural Nets (Japan theorist Le Cun et al.)
+
+
+    \end{frame}
+    
+
+
+
+\begin{frame}[label=examples]{Examples and Characterisations}
 
   begin{center}
-    emanple 0: nonnatural information is similar to mental representaion: "A tree in from of me" (Hamlet )
+
+  
+
+Natural information ()
+
+A nonnatural information is similar to mental representaion: "The tree in front of me". It can be false or inaccurate
 
 
-    example 1: nonnatural, linguistic inforamtion : "Shop is OPEN", perhaps derived from mental representations 
-
+    example 1: nonnatural, linguistic inforamtion : "Shop is OPEN", perhaps derived from mental representations. Can misrepresent 
  end{center}
 
 
@@ -136,22 +208,6 @@ THIS I STHE PICTURE OF THE THEORIRESS OF INFORMATION
 
     This gap is  one of the big class 
 
-PLATON: (eidos ), late informing  : in-formare - order / structure  preserving ; no measure
-
- HARTLEY  first gave the idea that connects the quantity of information with probability and strech it because its huge with log function. Notice Hartleys big idea was to get rid of psychological notion of inforamtion!!! MEanwhile we ended with "surpise" and "uncertainty" in  textbooks, which is a  problem for cognitive science (circularity)
-
-    "SHANNON" Information (This is not his fault, that we call it so; he woould not :-) 
-    NATURAL MEANING/INFORMATION (started by Grice (fire-smoke / shop is "OPEN"))
-    NONNATURAL MEANING/INFORMATION  (conventions, may misrepresent)
-    NATURAL as probability changing observation ($P(Y|X) > P(X) $)
-    NATURAL KNOWLEDGE (Drestke $P(X)$ raises to $1$ after observation $Y$:  $P(Y|X) $) 
-    SCARANTINO: The Probabilistic Difference Maker 
-    STRONGLY SEMANTIC INFORMATION (Floridi): True information  (and its way of measuring)
-BIOLOGICAL INFORMATION (DNA vehicles, it has causal capacities in the process of protein production )
-MENTAL REPRESENTATION (task function: "standing for", but what is the case of fictional objects(?), structural and compositional representaion )
-SEMANTIC INFORMATION (proposed be  Carnap  Bar-Hillel, measured by  ratio of number of worlds where sentence is true to number of worlds )
-
-    NEURAL INFORMATION (measured by Shannonn tools (mutual, relative informatoin))
 
 Just mention problems with particular solutions above.
 
@@ -563,7 +619,14 @@ The amount of Shannon information is then a statistical property of its vehicles
 
 
 
+\begin{frame}{Taking information for its measure }
 
+    It is quite common in the literature to identify information with information entropy.
+    (Piccinini)
+
+    
+
+\end{frame}
 
 
 \begin{frame}[label=equal_entropy]{Argument from Equal Entropy}
@@ -605,20 +668,27 @@ another point.” (\cite{shannon_mathematical_1948})
 \textbf{
 Shannon model's task function, we mights say, is  optimizing reliabilty of transfer. What ELSE it is able to perform, is an open question}
     
-Information theory has the communication model in its ontological commitments. When applied, the model equates to a kind of mechanism or is a part of bigger mechanism (in the sense of New Mechanists, \cite{machamer_thinking_2000,glennan_rethinking_2002}).
-    
-    Probably the best way to think about this mechanism is in terms of "information processing pipeline" (\cite{martinez_representations_2019}).
-    Two of its 5 parts (encoder and decoder) are allowed to process information in any way that improves reliability of transmission of information.
-
-    Importantly, this is a abstract mechanism description that we can map on many biological phenomena, organs, parts of organisms etc. But this practce is problematic (Nizami \cite{nizami_information_2019}).
-
-    3 main theorems in the core of the information theory  relate to  different parts of the model: these are source coding theorem, channel coding theorem, and rate distortion theorem. They describe COMPRESSION  RATE LIMITs (resp. lossless transmission, lossy compression, and trade off between rate and distortion) of the communication model.
 
 
 \end{frame}
 
 
 
+
+\begin{frame}[label=new_mechanists]{Towards New Mechanists interpretaion of information theory models}
+
+Biology and neuroscience explain phenomena by uncovering mechanism. Mechanism” is  an organized system of components and activities such that the components and activities, organized the way they are, produce the phenomenon (Bechtel and Richardson 1993; Glennan 1996; Machamer, Darden, and Craver 2000).
+
+Information theory has the communication model in its ontological commitments. When applied, the model equates to a kind of mechanism or is a part of bigger mechanism (in the sense of New Mechanists, \cite{machamer_thinking_2000,glennan_rethinking_2002}).
+    
+   \emph{ Probably the best way to think about this mechanism is in terms of "information processing pipeline" (\cite{martinez_representations_2019}).}
+
+    Two of its 5 parts (encoder and decoder) are allowed to process information in any way that improves reliability of transmission of information.
+
+    Importantly, this is a abstract mechanism description that we can map on many biological phenomena, organs, parts of organisms etc. But this practce is problematic (Nizami \cite{nizami_information_2019}).
+
+    3 main theorems in the core of the information theory  relate to  different parts of the model: these are source coding theorem, channel coding theorem, and rate distortion theorem. They describe COMPRESSION  RATE LIMITs (resp. lossless transmission, lossy compression, and trade off between rate and distortion) of the communication model.
+\end{frame}
 
 
 \begin{frame}[label=shannon_model]{ Shannon Model (\cite{shannon_mathematical_1948})}
@@ -1337,17 +1407,19 @@ A
     
 
 
+    \begin{frame}[label=conclusions2 ]{Conclusions}
 
-    \begin{frame}{Examples and Characterisations of Pipelines }
+    \begin{itemize}
+        \item Neural systems can be viewed as pipelines that process variability in the environment, transforming it into structured outputs that guide behavior.
+        \item Shannon's model provides a foundational framework for understanding these pipelines, emphasizing the reliable transmission of information.
+        \item Semantic information emerges when neural pipelines preserve structural relationships and enable action-guidance, fulfilling the conditions for structural representations.
+        \item The gap between Shannon and semantic information can be bridged by extending the Shannon model to include mechanisms like noisy addition, enabling compositionality and structure preservation.
+        \item Neural pipelines, such as those in early sensory systems, demonstrate how biological systems implement these principles, mapping variability to structured, actionable outputs.
+    \end{itemize}
 
-        - algea phototaxix pipelines
-        - jekely IO/IC table
-        - vervet monkeys (compression according to Martinez)
-        - Convolutional Neurla Nets (Japan thoeorist Le cun et al.)
+\end{frame}
 
 
-    \end{frame}
-    
 \begin{frame}
 
     So, "kind of information" is a misnomer;
