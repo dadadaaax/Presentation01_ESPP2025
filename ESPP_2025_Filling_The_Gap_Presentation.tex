@@ -35,6 +35,20 @@
 \setlength{\parskip}{0.3em}  % Adjust the value as needed
 %\setbeamerfont{frametitle}{size=\normalsize, series=\bfseries}
 
+
+\usepackage{calc} % for \widthof (if not already)
+% Bottom-right note macro (adjust position/size as needed)
+\newcommand{\brnote}[1]{%
+  \begin{textblock*}{\widthof{#1}-1.6em}(0.85\textwidth,0.935\textheight)%
+    \raggedleft\scriptsize #1%
+  \end{textblock*}%
+}
+
+
+
+
+
+
 \title{Filling the Gap between Shannon Information \\ and Semantic Information}
 \author{Daniel Piecka}
 \institute{Institute of Philosophy and Sociology \\ of the Polish Academy of Sciences, Warsaw \\ \texttt{pieckadaniel@gmail.com}}
@@ -91,15 +105,58 @@
 \end{frame}
 
 
+\begin{frame}[label=carcassi_entropy] { Start from the measure: Carcassi interpretation of entropy}
 
+   Entropy is well established measure of information defined by Claude Shannon 
+    \cite{shannon1949mathematical} as the average amount of information  produced by / stored by a stochastic source. 
+
+    Variability interpretation of entropy \cite{carcassi_variability_2021}  is better starter for cognitive science interpretations. 
+
+
+"Shannon entropy can be fully understood as measuring the variability of the elements within a given distribution", what gives it "a crisp intuitive meaning that is general and applicable to all branches of science" (\cite{carcassi_variability_2021}).
+
+\textbf{This view leads to ontologically and epistemologically neutral notion of information.
+}
+
+\end{frame}
+
+\begin{frame}[label=carcassi_entropy2] { Start from the measure: Carcassi interpretation of entropy (cont.)} 
+    
+In this view elements of the collections are not necessarily "messages" bearing any meanings. This we get rid of  the whole branch of problems summoned by seeing Shannon theory as nonstarter for the foundation of explanantions in cognitive science  (antiencodingism arguments c.f. \cite{bickhard_interactivist_2009} ) We also dismiss circularities in psychological notion of "uncertainty", pervasive in literature (epistemological neutrality)
+
+This view does not imply pancomputationalism but rather provides a non-psychological and non-semantic interpretation of information theory, as the elements of the collections are not necessarily "messages."
+
+E.g. animal signalling can be described this way as as reacting on the variablilityby the pipeline resuting in behavior (vervet but also cnidarians )
+
+
+Non-psychological interpretation: we do not say anymore in any substantial way about (average) surprisal / uncertainty of event.
+ 
+
+\end{frame}
 
 
 \begin{frame}[label=abstract_setup] {First abstract setup: two random variables: \(X\) and \(Y\)}
-Let \(X\) - "Source" and \(Y\) = "Destination" be two random variables ranging over collections. 
+Let \(X\) - (Source) and \(Y\) (Destination) be two random variables ranging over collections.
+Both can be interpreted in many ways, but for cognitive science applications Source will be an external (internal) source having some variability $H$ (entropy) and Destination a collection of possible objects, such as types, actions, etc.
 
-There can be interpreted in many ways, here Source will be an external source having some variability (entropy) and Destination a collection of possible objects, such as types, actions, etc.
+In any abstract setup there always is symetrical measure of information relation between the two.
+% --- Form 2 ---
+Mutual information $I(A;B)$ as reduction in uncertainty
+\[
+I(A;B) \;=\; H(A) - H(A|B) \;=\; H(B) - H(B|A)
+\]
+Mutual information is the drop in entropy of one variable once the other is known.
 
-In any abstract setup there always is symetrical 
+\emph{\textbf{This way of speaking about introduces the psychological aspect of theory of information (uncertainty , surprise, knowledge)
+}}
+% --- Form 4 ---
+Mutual information as expectation over the joint distribution
+\[
+I(A;B) \;=\; \sum_{a \in \mathcal{A}} \sum_{b \in \mathcal{B}} 
+p(a,b)\, \log \frac{p(a,b)}{p(a)\,p(b)}
+\]
+Computed directly from the joint and marginal probabilities of the variables.
+
 
 \end{frame}
 
@@ -171,8 +228,7 @@ The Shannon pipeline with source and channel encoding / decoding parts: communic
 
 \end{tikzpicture}
 
- \begin{textblock*}{2cm}(0.95\textwidth,0.93\textheight) \scriptsize DDDDD \end{textblock*}
-
+\brnote{\cite{cover_elements_2006}}
 
  \end{frame}   
 
@@ -287,29 +343,7 @@ FUNCTIONAL INFORAMTION  (FRESCO)
 
 
 
-\begin{frame}[label=carcassi_entropy] {First pillar: Carcassi interpretation of entropy}
 
-Entropy is "variability of the elements within a given distribution", what gives it "a crisp intuitive meaning that is general and applicable to all branches of science" (\cite{carcassi_variability_2021}).
-
-In this interpretaions ONCE for all we ca chop of the whole branch of problems related to seeing Shannon theory as nonstarter for the foundation of explanantions in cognitive scienc  cognitive science
-
-
-THIS VIEW DOES NOT IMPLY PANCOMPUTATIONALISM, but rather a non-psychological interpretation of information theory.
-
-(what about Bickhard, P)
-
-and also get rid of ccircularities in psychological notion of "uncertainty", pervasive in textbooks of IT.
-
-This interpuding retation is extremely valuable because we can use it in all science, but esp. in cogntitive science without a worry about homunculus, circularity, epistemological circularity etc
-
-For exampple animal signalling can be described thist way as as reacting on the variablilityby the pipeline reslting in behavior (vervet but albo cnidarians. żebropławy )
-No more talking anbout codes, where it does not fit or leads to "Bickhard's" antiencodingism. 
-
-non-psychological interpretation: we do not say anymore in any substantial way about (average) surprisal / uncertainty of event.
-Variability interpretations is better starter fo cog sci interpretatons.
- 
-
-\end{frame}
 
 
 
@@ -829,8 +863,8 @@ The elements of the pipeline are then in \textbf{causal relations.} ("Cheap corr
                     
                     \item \textbf{Encoder}: Increases redundancy of the information before sending as "signal" through the Cchannel.
                     \item \textbf{Decoder }: Reduces redundancy, reconstructs the original message given the signal received from the channel.
-                    \item \textbf{Semantic:} Yes, grounded in the accuracy conditions (Source).
-                    \item \textbf{Deterministic:} No, due to the presence of noise in the Channel.
+                    \item \textbf{is Semantic:} Yes, grounded in the accuracy conditions (Source).
+                    \item \textbf{is Deterministic:} No, due to the presence of noise in the Channel.
                     \item 
                     \item \textbf{Example:} , such as a biological neural system.
                 \end{itemize}
