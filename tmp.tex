@@ -1,10 +1,62 @@
 \documentclass[10pt]{article}
 \usepackage{tikz}
 \usepackage{graphicx}
-\usetikzlibrary{positioning}
+
+\usetikzlibrary{decorations.pathreplacing, positioning}
 
 \begin{document}
+
+
+\begin{frame}[label=fly_frog_pipeline]{ Cognitive casusal processing pipeline of the agent in the environment}
+
 \resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[>=stealth, node distance=12mm, every node/.style={align=center}]
+  % styles
+  \tikzstyle{block} = [draw, minimum width=28mm, minimum height=12mm, rounded corners=1pt]
+  \tikzstyle{thinblock} = [draw, minimum width=24mm, minimum height=12mm, rounded corners=1pt]
+  \tikzstyle{labelnode} = [inner sep=0pt]
+
+  % nodes
+  \node (source) {\includegraphics[width=2cm,height=2cm]{images/fly03.png}};
+  \node[labelnode, right=12mm of source] (msg) {$W$\\\small photons};
+
+\node[thinblock, right=12mm of msg] (enc) {Retina};
+\node[labelnode, right=8mm of enc] (xn) {$X^n$};
+
+\node[thinblock, right=8mm of xn] (chan) {Channel / Brain / black box \\$p(y|x)$ };
+\node[labelnode, right=8mm of chan] (yn) {$Y^n$};
+
+\node[thinblock, right=8mm of yn] (dec) {Motor system};
+\node[labelnode, right=8mm of dec] (est) {${A}$\\\small (selected) action};
+
+% underbrace
+% Draw underbrace
+\draw [decorate,decoration={brace,mirror,amplitude=28pt}]
+  (enc.south west) -- (dec.south east)
+  node[midway,yshift=-34pt]{agent};
+  
+ 
+
+  \node[below=22mm of chan] (action) {\includegraphics[width=2cm,height=2cm]{images/frog03.png}};
+
+
+
+  % arrows
+  \draw[->] (source) -- (msg);
+  \draw[->] (msg) -- (enc);
+  \draw[->] (enc) -- (xn);
+  \draw[->] (xn) -- (chan);
+  \draw[->] (chan) -- (yn);
+  \draw[->] (yn) -- (dec);
+  \draw[->] (dec) -- (est);
+
+\end{tikzpicture}
+}
+
+\end{frame}
+
+\begin{frame}[label=algea_pipeline] { Cognitive casusal processing pipeline of the agent in the environment}
+
 \begin{tikzpicture}[>=stealth, node distance=12mm, every node/.style={align=center}]
   % styles
   \tikzstyle{block} = [draw, minimum width=28mm, minimum height=12mm, rounded corners=1pt]
@@ -25,11 +77,7 @@
 \node[labelnode, right=8mm of dec] (est) {$\hat{A}$\\\small (selected) action};
 
 % underbrace
-\node[below=6mm of enc, align=center] (underbrace_start) {};
-\node[below=6mm of dec, align=center] (underbrace_end) {};
-\draw[decorate, decoration={brace, mirror, amplitude=10pt}] 
-    (underbrace_start.south west) -- (underbrace_end.south east) 
-    node[midway, below=10pt] {Cognitive casusal processing pipeline of the agent in the environment};
+ {Cognitive casusal processing pipeline in single algea (is \textbf{grounded})};
 
   \node[below=22mm of chan] (action) {\includegraphics[width=2cm,height=2cm]{images/frog03.png}};
 
@@ -45,5 +93,21 @@
   \draw[->] (dec) -- (est);
 
 \end{tikzpicture}
-}
+
+\end{frame}
+
+
+
+
+\begin{frame}[label=jekely_table] {IO, IC Table}
+    \begin{itemize}
+        \item Semantic appears in algae pipeline case.
+        \item A better name is "grounded" - in the Harnad sense.
+        \item From "semantic information," we want more: it should contain some "additional" information about structure (Plato's wax).
+        \item What's more, it should be compositional! Just as in the language of thought hypothesis, we should be able to know what "red apple" means if we know what "red lips" means (modulo "red herring cases").
+    \end{itemize}
+\end{frame}
+
+
 \end{document}
+ 
