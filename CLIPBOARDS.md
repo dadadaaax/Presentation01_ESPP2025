@@ -1545,3 +1545,27 @@ CHRISTOPHER POTTS
 ## 2025-08-23 13:43:01
 
 https://doi.org/10.1093/acprof:oso/9780199658855.001.0001
+
+##  Compositional Distributional Models of Meaning
+
+Compositional Distributional Models of Meaning
+Mehrnoosh Sadrzadeh
+Dimitri Kartsaklis
+Queen Mary University of London
+School of Electronic Engineering and Computer Science
+Mile End Road, London E1 4NS, UK
+{mehrnoosh.sadrzadeh;d.kartsaklis}@qmul.ac.uk
+1
+Description
+Distributional models of meaning (see Turney and Pantel (2010) for an overview) are based on the prag-
+matic hypothesis that meanings of words are deducible from the contexts in which they are often used.
+This hypothesis is formalized using vector spaces, wherein a word is represented as a vector of co-
+occurrence statistics with a set of context dimensions. With the increasing availability of large corpora
+of text, these models constitute a well-established NLP technique for evaluating semantic similarities.
+Their methods however do not scale up to larger text constituents (i.e. phrases and sentences), since the
+uniqueness of multi-word expressions would inevitably lead to data sparsity problems, hence to unre-
+liable vectorial representations. The problem is usually addressed by the provision of a compositional
+function, the purpose of which is to prepare a vector for a phrase or sentence by combining the vectors
+of the words therein. This line of research has led to the field of compositional distributional models
+of meaning (CDMs), where reliable semantic representations are provided for phrases, sentences, and
+discourse units such as dialogue utterances and even paragraphs or documents.
