@@ -58,7 +58,7 @@
 
 
 %*************************EXCLUDING FRAMES ***********************************
-\includeonlyframes{abstract_setup,shannon_pipeline_source_channel, references}
+\includeonlyframes{abstract_setup,first_causal_setup,shannon_pipeline_source_channel, references}
 
 \begin{document}
 
@@ -105,6 +105,35 @@
 \end{frame}
 
 
+
+\begin{frame}[label=abstract_setup] {First abstract setup: two random variables: \(X\) and \(Y\)}
+
+
+Let \(X\) - (Source) and \(Y\) (Destination) be two random variables ranging over collections.
+Both can be interpreted in many ways, but for cognitive science applications Source will be an external (internal) source having some variability $H$ (entropy) and Destination a collection of possible objects, such as types, actions, etc.
+
+In any abstract setup there always is symetrical measure of information relation between the two.
+% --- Form 2 ---
+Mutual information $I(X;Y)$ as reduction in uncertainty
+\[
+I(X;Y) \;=\; H(X) - H(X|Y) \;=\; H(Y) - H(Y|X)
+\]
+Mutual information is the drop in entropy of one variable once the other is known.
+
+\emph{\textbf{This way of speaking about introduces the psychological aspect of theory of information (uncertainty , surprise, knowledge)
+}}
+% --- Form 4 ---
+Mutual information as expectation over the joint distribution
+\[
+I(X;Y) \;=\; \sum_{x \in \mathcal{X}} \sum_{y \in \mathcal{Y}} 
+p(x,y)\, \log \frac{p(x,y)}{p(x)\,p(y)}
+\]
+Computed directly from the joint and marginal probabilities of the variables.
+
+
+\end{frame}
+
+
 \begin{frame}[label=carcassi_entropy] { Start from the measure: Carcassi interpretation of entropy}
 
    Entropy is well established measure of information defined by Claude Shannon 
@@ -121,8 +150,8 @@
 \end{frame}
 
 \begin{frame}[label=carcassi_entropy2] { Start from the measure: Carcassi interpretation of entropy (cont.)} 
-    
-In this view elements of the collections are not necessarily "messages" bearing any meanings. This we get rid of  the whole branch of problems summoned by seeing Shannon theory as nonstarter for the foundation of explanantions in cognitive science  (antiencodingism arguments c.f. \cite{bickhard_interactivist_2009} ) We also dismiss circularities in psychological notion of "uncertainty", pervasive in literature (epistemological neutrality)
+
+\textbf{In this view elements of the collections are not necessarily "messages" bearing any meanings.} This we get rid of  the whole branch of problems summoned by seeing Shannon theory as nonstarter for the foundation of explanantions in cognitive science  (antiencodingism arguments c.f. \cite{bickhard_interactivist_2009} ) We also dismiss circularities in psychological notion of "uncertainty", pervasive in literature (epistemological neutrality)
 
 This view does not imply pancomputationalism but rather provides a non-psychological and non-semantic interpretation of information theory, as the elements of the collections are not necessarily "messages."
 
@@ -135,35 +164,12 @@ Non-psychological interpretation: we do not say anymore in any substantial way a
 \end{frame}
 
 
-\begin{frame}[label=abstract_setup] {First abstract setup: two random variables: \(X\) and \(Y\)}
-Let \(X\) - (Source) and \(Y\) (Destination) be two random variables ranging over collections.
-Both can be interpreted in many ways, but for cognitive science applications Source will be an external (internal) source having some variability $H$ (entropy) and Destination a collection of possible objects, such as types, actions, etc.
-
-In any abstract setup there always is symetrical measure of information relation between the two.
-% --- Form 2 ---
-Mutual information $I(A;B)$ as reduction in uncertainty
-\[
-I(A;B) \;=\; H(A) - H(A|B) \;=\; H(B) - H(B|A)
-\]
-Mutual information is the drop in entropy of one variable once the other is known.
-
-\emph{\textbf{This way of speaking about introduces the psychological aspect of theory of information (uncertainty , surprise, knowledge)
-}}
-% --- Form 4 ---
-Mutual information as expectation over the joint distribution
-\[
-I(A;B) \;=\; \sum_{a \in \mathcal{A}} \sum_{b \in \mathcal{B}} 
-p(a,b)\, \log \frac{p(a,b)}{p(a)\,p(b)}
-\]
-Computed directly from the joint and marginal probabilities of the variables.
 
 
-\end{frame}
+\begin{frame} [label=first_causal_setup] {First causal  setup of pipeline  }
+To model some aspects of cognition (e.g perception) the abstract pair of random variables of \(X\) and \(Y\) is interpreted causally:
 
-
-\begin{frame} {First causal  setup of pipeline  }
-To model cognitition, esp. perception we interpret the abstract set of \(X\) and \(Y\) causally:
-There is a causal relationship between the source and the destination, i.e. the is a directed  physical (or biophisical) relationship between the two.
+\textbf{There is a causal relationship between the source and the destination, i.e. the is a directed  physical (e.g. biophysical) relationship between the two.} 
 
 This causal, mechanists interpretation immediately solves the symmetry problem appearing: the destination information is such and such because the source information is such and such.
 
@@ -181,7 +187,7 @@ where:
     \item \(p(x)\) and \(p(y)\) are the marginal probability distributions of \(X\) and \(Y\), respectively.
 \end{itemize}
 Mutual information quantifies the amount of information obtained about one random variable through the other.
-This is somewhat analogous to correlation, but captures not only linear relationships and is proper fr any collecions 
+This is somewhat analogous to correlation, but captures not only linear relationships and is proper for any collections
 
 
 The vehicles of both randoms variables are phycisal objects (processes).
