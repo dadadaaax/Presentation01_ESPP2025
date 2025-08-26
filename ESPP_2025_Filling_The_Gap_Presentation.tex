@@ -1,13 +1,15 @@
 \documentclass[10pt, aspectratio=169, handout]{beamer}
 \usepackage{amsmath}
 \usepackage{tikz}
-
 \usepackage{setspace}
 \linespread{0.93} 
 \usetikzlibrary{shapes.geometric, arrows, positioning, arrows.meta}
-
 % \usepackage{neuralnetwork}
 \usepackage[table]{xcolor}
+
+\usepackage[absolute,overlay]{textpos}
+
+
 \usepackage{caption} % Required for \captionof
 \usepackage[T1]{fontenc} % Support for \k command
 \usepackage[
@@ -17,46 +19,32 @@
 ]{biblatex}
 
 \addbibresource{biblioteka.bib} % Ensure the file 'biblioteka.bib' exists in the same directory
-
 %Define theme and color settings
 \usetheme{boxes}
 \usecolortheme{dove} % Grayscale color theme
 \usebeamerfont{serif}
 % Remove navigation symbols
 \setbeamertemplate{navigation symbols}{}
-
 \setbeamertemplate{frametitle}{
     \vspace{0.2cm}
     \begin{centering}
         {\textbf{\Huge}\insertframetitle\par} % Increased font size
     \end{centering}
 }
-
 \setbeamercolor{frametitle}{fg=blue!80!black}
-
-
 \setlength{\parskip}{0.3em}  % Adjust the value as needed
-
 %\setbeamerfont{frametitle}{size=\normalsize, series=\bfseries}
 
-
 \title{Filling the Gap between Shannon Information \\ and Semantic Information}
-
 \author{Daniel Piecka}
-
 \institute{Institute of Philosophy and Sociology \\ of the Polish Academy of Sciences, Warsaw \\ \texttt{pieckadaniel@gmail.com}}
-
 \date{\today} 
 
 
-  
- 
 
 
-
-
-
-\includeonlyframes{shannon_pipeline_source_channel}
+%*************************EXCLUDING FRAMES ***********************************
+\includeonlyframes{abstract_setup,shannon_pipeline_source_channel, references}
 
 \begin{document}
 
@@ -104,11 +92,53 @@
 
 
 
- \begin{frame} [label=shannon_pipeline_source_channel] {Shannon pipeline}
-    
 
 
-      
+\begin{frame}[label=abstract_setup] {First abstract setup: two random variables: \(X\) and \(Y\)}
+Let \(X\) - "Source" and \(Y\) = "Destination" be two random variables ranging over collections. 
+
+There can be interpreted in many ways, here Source will be an external source having some variability (entropy) and Destination a collection of possible objects, such as types, actions, etc.
+
+In any abstract setup there always is symetrical 
+
+\end{frame}
+
+
+\begin{frame} {First causal  setup of pipeline  }
+To model cognitition, esp. perception we interpret the abstract set of \(X\) and \(Y\) causally:
+There is a causal relationship between the source and the destination, i.e. the is a directed  physical (or biophisical) relationship between the two.
+
+This causal, mechanists interpretation immediately solves the symmetry problem appearing: the destination information is such and such because the source information is such and such.
+
+Let \(X\) - "Source" and \(Y\) = "Destination" be two random variables. 
+There can be interpreted in many ways, here Source will be an external source having some variability (entropy) and Destination a collection of possible objects, such as types, actions, etc.
+
+A first relation between these variables is mutual information 
+\[
+I(X;Y) = \sum_{x \in \mathcal{X}} \sum_{y \in \mathcal{Y}} p(x, y) \log \frac{p(x, y)}{p(x)p(y)}
+\]
+where:
+\begin{itemize}
+    \item \(I(X;Y)\) is the mutual information between random variables \(X\) and \(Y\),
+    \item \(p(x, y)\) is the joint probability distribution of \(X\) and \(Y\),
+    \item \(p(x)\) and \(p(y)\) are the marginal probability distributions of \(X\) and \(Y\), respectively.
+\end{itemize}
+Mutual information quantifies the amount of information obtained about one random variable through the other.
+This is somewhat analogous to correlation, but captures not only linear relationships and is proper fr any collecions 
+
+
+The vehicles of both randoms variables are phycisal objects (processes).
+Usually it is assumed that the source generates a signal that is then received  at the destination.
+The proper picture here is old telegraph
+
+
+\end{frame}
+
+ \begin{frame} [label=shannon_pipeline_source_channel] {Shannon pipeline with source and channel coding separation}
+
+The Shannon pipeline with source and channel encoding / decoding parts: communication model 
+
+\bigskip
 
     \begin{tikzpicture}[
     >=Latex,
@@ -137,7 +167,13 @@
 \node[block, above=of chan] (noise) {Noise $N$};
 \draw[->] (noise) -- (chan);
 
+
+
 \end{tikzpicture}
+
+ \begin{textblock*}{2cm}(0.95\textwidth,0.93\textheight) \scriptsize DDDDD \end{textblock*}
+
+
  \end{frame}   
 
  
@@ -716,7 +752,7 @@ The elements of the pipeline are then in \textbf{causal relations.} ("Cheap corr
 
 \begin{frame}[label=shannon_mechanism]{Shannon model as mechanism}
  
-    The classic Shannon channel is a mechanism in this sense.
+    The classic Shannon communication model  is a mechanism in this sense.
     According to the New Mechanists:
 
     Mechanisms are entities and activities organized in such a way that they are
@@ -944,7 +980,7 @@ $$
 
   
 
-    \begin{frame}[label=shannon_channel] {It is not an easy task to see the Shannon channel}
+    \begin{frame}[label=shannon_channel] {It is not an easy task to see the Shannon communication model }
     
         Now we may go back to Dennets argument for a while. Good mechanistic explanations should be able to map the elements of Shannon model on the cognitive pipelines. 
      
@@ -1316,7 +1352,7 @@ encodes a signal of intensity:
    
 \textbf{How can computaional model acuire linear capabilities by exploting the Shannon model pipeline?}
     
-Let me now propose that the "mutated" or "exapted" Shannon channel can perform computation: specifically, (noisy) addition without relying on traditional arithmetic operations. Why choose addition? 
+Let me now propose that the "mutated" or "exapted" Shannon communication model  can perform computation: specifically, (noisy) addition without relying on traditional arithmetic operations. Why choose addition? 
 
 Having addition, system could gain the task function of "measuring intensity," which leads to thresholding units (\cite{mcculloch_logical_1943}) and, consequently, to classification capabilities and linear properties in the system.
 
@@ -1431,7 +1467,7 @@ A
 
 
 
-    \begin{frame}[allowframebreaks]{References}
+    \begin{frame}[label=references]{References}
    \small
         \printbibliography
     \end{frame}
