@@ -10,6 +10,16 @@ One way of developing these ideas is to focus on the evolved functions of the ge
 Neuroendocrine cells are cells that receive neuronal input (through neurotransmitters released by nerve cells or neurosecretory cells) and, as a consequence of this input, release messenger molecules (hormones) into the blood. In this way they bring about an integration between the nervous system and the endocrine system, a process known as neuroendocrine integration. An example of a neuroendocrine cell is a cell of the adrenal medulla (innermost part of the adrenal gland), which releases adrenaline to the blood
 
 
+
+## sponge larvae
+photosensitive ciliated cells in some sponge larvae as examples of a single cell exhibiting input-output (IO) characteristics.
+Here's a breakdown of how these cells demonstrate IO characteristics:
+• Input: These cells are photosensitive, meaning they receive light information as sensory input.
+• Output: They use light-controlled rudder-like cilia to achieve phototactic steering. This means the light input directly influences the motor output (ciliary movement) of the same cell.
+• No Nervous Control Required: This function occurs without a need for nervous control.
+• Efficiency Perspective: From an efficiency standpoint, this mechanism is described as less efficient than a nervous system because "every motor component needs its own sensor," and "sensory mechanisms influence the activity of cilia on the same cell, thereby steering the whole larva". This highlights that the IO function is contained within a single cell or independent effector.
+
+
 ## Jekely hypothesis
 Possible historical sequences 
 We have discussed six categories. Each combines an  explana-
