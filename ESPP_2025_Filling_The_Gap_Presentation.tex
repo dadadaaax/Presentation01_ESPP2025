@@ -20,7 +20,7 @@
     sorting=ynt    % Sort bibliography by year, name, title
 ]{biblatex}
 
-\addbibresource{biblioteka.bib} % Ensure the file 'biblioteka.bib' exists in the same directory
+\addbibresource{biblioteka.bib} % Ensure the file 'biblioteka.bib' exists in the same directory and contains valid entries
 %Define theme and color settings
 \usetheme{boxes}
 \usecolortheme{dove} % Grayscale color theme
@@ -55,15 +55,15 @@
 \author{Daniel Piecka}
 \institute{Institute of Philosophy and Sociology \\ of the Polish Academy of Sciences, Warsaw \\ \texttt{pieckadaniel@gmail.com}}
 \date{\today} 
-
+ 
 
 
 
 %*************************EXCLUDING FRAMES ***********************************
 %\includeonlyframes{abstract_setup,first_causal_setup,shannon_pipeline_source_channel,fly_frog_pipeline, references}
 
-
-\includeonlyframes{fly_frog_pipeline, references}
+\includeonlyframes{carcassi_entropy,references}
+%\includeonlyframes{fly_frog_pipeline,basic_topologies, references}
 
 
 \begin{document}
@@ -284,6 +284,143 @@ The Shannon pipeline with source and channel encoding / decoding parts: communic
 
 
 
+\begin{frame}[label=sponge_larva]{ Cognitive(?) casusal processing pipeline in sponge larva}
+
+
+
+    \resizebox{\textwidth}{!}{%
+    \begin{tikzpicture}[>=stealth, node distance=12mm, every node/.style={align=center}]
+        % styles
+        \tikzstyle{block} = [draw, minimum width=28mm, minimum height=12mm, rounded corners=1pt]
+        \tikzstyle{thinblock} = [draw, minimum width=24mm, minimum height=12mm, rounded corners=1pt]
+        \tikzstyle{labelnode} = [inner sep=0pt]
+
+        % nodes
+        \node (source) {\includegraphics[width=2cm,height=2cm]{images/fly03.png}};
+        \node[labelnode, right=12mm of source] (msg) {$W$\\\small photons ordered collection};
+
+    \node[thinblock, right=12mm of msg] (enc) {Retina};
+    \node[labelnode, right=8mm of enc] (xn) {$X^n$};
+
+    \node[thinblock, right=8mm of xn] (chan) {Channel / Brain / black box \\$p(y|x)$ };
+    \node[labelnode, right=8mm of chan] (yn) {$Y^n$};
+
+    \node[thinblock, right=8mm of yn] (dec) {Motor system};
+    \node[labelnode, right=8mm of dec] (est) {${A}$\\\small (selected) action};
+
+    % underbrace
+    % Draw underbrace
+    \draw [decorate,decoration={brace,mirror,amplitude=28pt}]
+        (enc.south west) -- (dec.south east)
+        node[midway,yshift=-34pt]{agent};
+        
+     
+
+        \node[below=22mm of chan] (action) {\includegraphics[width=4cm,height=4cm]{images/frog03.png}};
+
+
+
+        % arrows
+        \draw[->] (source) -- (msg);
+        \draw[->] (msg) -- (enc);
+        \draw[->] (enc) -- (xn);
+        \draw[->] (xn) -- (chan);
+        \draw[->] (chan) -- (yn);
+        \draw[->] (yn) -- (dec);
+        \draw[->] (dec) -- (est);
+
+    \end{tikzpicture}
+    }
+
+    \begin{center}
+    I/O function is contained within a single cell or independent effector. Photosensitive ciliated cells in sponge larvae as examples of a single cell exhibiting input-output (IO) characteristics. Here,cells are photosensitive, they receive light information as sensory input. They use light-controlled rudder-like cilia to achieve phototactic steering. This means the light input directly influences the motor output (ciliary movement) of the same cell.
+This function occurs without a need for nervous control!
+
+From an efficiency standpoint, this mechanism is described as less efficient than a nervous system because "every motor component needs its own sensor," and "sensory mechanisms influence the activity of cilia on the same cell, thereby steering the whole larva". \autocite{jekelyOptionSpaceEarly2015}
+ 
+    \end{center}
+
+
+
+\end{frame}
+
+
+\begin{frame}[label=basic_topologies]{Basic Topological Solutions}
+
+
+\begin{tikzpicture}[node distance=2cm,>=stealth,thick]
+
+\tikzset{dot/.style={circle,fill,inner sep=2pt}}
+
+% 1. Parallel pipelines
+\node[dot] (a1) {};
+\node[dot] (b1) [right=of a1] {};
+\draw[->] (a1) -- (b1);
+
+\node[dot] (a2) [below=0.7cm of a1] {};
+\node[dot] (b2) [right=of a2] {};
+\draw[->] (a2) -- (b2);
+
+\node[dot] (a3) [below=0.7cm of a2] {};
+\node[dot] (b3) [right=of a3] {};
+\draw[->] (a3) -- (b3);
+
+\node[left=0.5cm of a2] {1.};
+
+% 2. One-to-many (fan-out)
+\node[dot] (c0) [below=2cm of a3] {};
+\node[dot] (c1) [right=1.5cm of c0] {}; % junction
+\node[dot] (c2) [right=2cm of c1,yshift=0.7cm] {};
+\node[dot] (c3) [right=2cm of c1] {};
+\node[dot] (c4) [right=2cm of c1,yshift=-0.7cm] {};
+\draw[->] (c0) -- (c1);
+\draw[->] (c1) -- (c2);
+\draw[->] (c1) -- (c3);
+\draw[->] (c1) -- (c4);
+
+\node[left=0.5cm of c0] {2.};
+
+% 3. Many-to-one (fan-in)
+\node[dot] (d1) [below=2cm of c3, yshift=0.7cm] {};
+\node[dot] (d2) [below=0.7cm of d1] {};
+\node[dot] (d3) [below=0.7cm of d2] {};
+\node[dot] (d4) [right=2cm of d2] {}; % junction
+\node[dot] (d5) [right=1.5cm of d4] {}; % output
+\draw[->] (d1) -- (d4);
+\draw[->] (d2) -- (d4);
+\draw[->] (d3) -- (d4);
+\draw[->] (d4) -- (d5);
+
+\node[left=0.5cm of d2] {3.};
+
+\end{tikzpicture}
+
+
+ \end{frame}
+
+
+
+\begin{frame}[label=efficiency_role]{Efficiency Role: Neural Hypothesis}
+
+    \begin{itemize}
+        \item 
+        
+ In some non-neural organisms, like sponge larvae, sensory mechanisms directly influence the activity of cilia on the same cell to control steering. Inefficient because every motor component (like a cilium) requires its own sensor.
+
+
+ The advent of neurons made it possible for a small number of sensory cells to control a large bank of motor devices, thereby increasing efficiency through division of labor and economies of scale.
+•The addition of neurons  allows a few sensors to control many effectors. XXX Jekely cites someone
+        
+      
+    \end{itemize}
+
+   
+
+\end{frame}
+
+
+
+
 
 \begin{frame}[label=fly_frog_pipeline]{ Cognitive casusal processing pipeline of the agent in the environment}
 
@@ -298,7 +435,7 @@ The Shannon pipeline with source and channel encoding / decoding parts: communic
 
         % nodes
         \node (source) {\includegraphics[width=2cm,height=2cm]{images/fly03.png}};
-        \node[labelnode, right=12mm of source] (msg) {$W$\\\small photons ordered collection};
+        \node[labelnode, right=12mm of source] (msg) {$W$\\\small photons \\ ordered \\collection};
 
     \node[thinblock, right=12mm of msg] (enc) {Retina};
     \node[labelnode, right=8mm of enc] (xn) {$X^n$};
@@ -1561,7 +1698,7 @@ A
 
 \end{frame}
 
-
+ 
 \begin{frame}
 
     So, "kind of information" is a misnomer;
@@ -1573,10 +1710,10 @@ A
 
 
 
-    \begin{frame}[label=references]{References}
-   \small
-        \printbibliography
-    \end{frame}
+
+\begin{frame}[allowframebreaks, label=references]{References}
+    \printbibliography
+\end{frame}
 
 
 
