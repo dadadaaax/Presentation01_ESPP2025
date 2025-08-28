@@ -9,7 +9,7 @@
 
 \usepackage[absolute,overlay]{textpos}
 \usetikzlibrary{decorations.pathreplacing, positioning}
-
+\usetikzlibrary{calc}
 
 
 \usepackage{caption} % Required for \captionof
@@ -46,7 +46,14 @@
   \end{textblock*}%
 }
 
-
+\newcommand{\crossoutframe}{%
+    \begin{tikzpicture}[remember picture, overlay]
+        \draw[red, line width=3pt, shorten >=2cm, shorten <=2cm]
+            (current page.north west) -- (current page.south east);
+        \draw[red, line width=3pt, shorten >=2cm, shorten <=2cm]
+            (current page.north east) -- (current page.south west);
+    \end{tikzpicture}%
+}
 
 
 
@@ -364,7 +371,7 @@ From an efficiency standpoint, this mechanism is described as less efficient tha
 \end{frame}
 
 
-\begin{frame}[label=basic_topologies]{Basic Topological Solutions}
+\begin{frame}[label=basic_topologies]{Basic multidimensional pipelines}
 
 
 \begin{tikzpicture}[node distance=2cm,>=stealth,thick]
@@ -372,6 +379,7 @@ From an efficiency standpoint, this mechanism is described as less efficient tha
 \tikzset{dot/.style={circle,fill,inner sep=2pt}}
 
 % 1. Parallel pipelines
+
 \node[dot] (a1) {};
 \node[dot] (b1) [right=of a1] {};
 \draw[->] (a1) -- (b1);
@@ -384,7 +392,7 @@ From an efficiency standpoint, this mechanism is described as less efficient tha
 \node[dot] (b3) [right=of a3] {};
 \draw[->] (a3) -- (b3);
 
-\node[left=0.5cm of a2] {1.};
+\node[left=0.5cm of a2] {many-to-many-straight};
 
 % 2. One-to-many (fan-out)
 \node[dot] (c0) [below=2cm of a3] {};
@@ -397,7 +405,7 @@ From an efficiency standpoint, this mechanism is described as less efficient tha
 \draw[->] (c1) -- (c3);
 \draw[->] (c1) -- (c4);
 
-\node[left=0.5cm of c0] {2.};
+\node[left=0.5cm of c0] {one-to-many, more efficient };
 
 % 3. Many-to-one (fan-in)
 \node[dot] (d1) [below=2cm of c3, yshift=0.7cm] {};
@@ -410,7 +418,7 @@ From an efficiency standpoint, this mechanism is described as less efficient tha
 \draw[->] (d3) -- (d4);
 \draw[->] (d4) -- (d5);
 
-\node[left=0.5cm of d2] {3.};
+\node[left=0.5cm of d2] {many-to-one, more efficient};
 
 \end{tikzpicture}
 
@@ -1679,7 +1687,7 @@ A
     \begin{frame}{Conclusions }
     
         \begin{itemize}
-           \item To explain semantic phenomena is to provide a description of the pipeline that processes the variabilty (Carcassi),  what seems like proper scientific task with some prospect of successes.
+           \item To explain semantic structural cognitive phenomena is to provide a description of the pipeline that processes the real world collections  ,  what seems like proper scientific task with some prospect of successes.
           
             \item To explain  structural representations, only one kind of information is needed: "Shannon" information. When processed by complex pipelines (e.g., neural networks), it does not become  (1) semantic nor (2) compositional: the whole pipeline has this properties  and qualifies as an S-representation. Our ontology gets healtier. 
             
@@ -1692,6 +1700,9 @@ A
       
     \end{frame}
     
+
+
+
     
     \begin{frame}
         \begin{figure}[h!]
@@ -1720,12 +1731,46 @@ A
  
 \begin{frame}
 
-    So, "kind of information" is a misnomer;
-    Every time they it is used we mean  the way of measuring inforamtion (by Shannon measure, Fisher measure)  or the properties of the pipelines processing the collections, while the ways of doing it seem to be entirely open.
+    \begin{center}
+        So, a "kind of information" is a misnomer; there are ways of measuring collection (by Shannon measure, Fisher measure) or the properties of the pipelines processing the collections, while the ways of doing it seem to be entirely open.
+    \end{center}
 
     
 
 \end{frame}
+
+\begin{frame}[label=no_gap] {The landscape after New Mechanists treatment}
+    
+    
+   
+        \begin{tikzpicture}
+            \node[fill=blue!40, ellipse, inner sep=3pt] at (-3, 0) {Shannon information};
+             \node[fill=blue!40, ellipse, inner sep=3pt] at (3, 0) {Fisher information};
+
+            \node[fill=green!20, ellipse, inner sep=3pt] at (2, -2) {Semantic information};  
+            \node[fill=gray!20, ellipse, inner sep=3pt] at (2, +2) {Strongly semantic information};
+
+            \node[fill=yellow!20, ellipse, inner sep=3pt] at (-2, -1) {Natural information};
+            \node[fill=red!20, ellipse, inner sep=3pt] at (1, -2) {Non-natural information};
+
+            \node[fill=purple!20, ellipse, inner sep=3pt] at (-3, 2) {Biological information};
+            \node[fill=orange!20, ellipse, inner sep=3pt] at (3, -1) {Mental representation};
+
+            \node[fill=cyan!20, ellipse, inner sep=3pt] at (-1, 3) {Neural information};
+            \node[fill=lime!20, ellipse, inner sep=3pt] at (0, -3) {Functional information};
+            \node[fill=pink!20, ellipse, inner sep=3pt] at (4, -3) {Non-semantic information};
+        \end{tikzpicture}
+
+
+        \crossoutframe
+
+    \textbf{There is no gap between kinds of information. }
+    We deal with one kind of information (collection) - and many kinds of pipelines to discover and create.
+
+\end{frame}
+
+
+
 
 
 
