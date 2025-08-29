@@ -122,20 +122,22 @@
 
 \end{frame}
 
-\begin{frame} {A Graded Taxonomy proposal }
-    
-In the result we end with potencially rich and open set of the kinds of information. 
-\cite{fresco_functional_2018}
+\begin{frame} {A Graded Taxonomy of information }
+
+A potentially rich and open set of the kinds of information \cite{fresco_functional_2018}
 
 \end{frame}
 
 
 \begin{frame} {First claim}
     \begin{center}
-        \Large This, I think, makes a place for a blow up of the ontology of cognitive science, especially when it is trying hard to use Shannon theory of information for its explanatory goals.
+        \Large That landscape blows up of the ontology of cognitive science, especially when it is trying hard to apply Shannon \textbf{theory of} information for its explanatory goals.
 
     \end{center}
 \end{frame}
+
+
+
 
 
 \begin{frame}[label=abstract_setup] {First abstract setup: two random variables: \(X\) and \(Y\)}
@@ -285,8 +287,6 @@ The Shannon pipeline with source and channel encoding / decoding parts: communic
       
     The gap has had a wide influence in cognitive science since the first applications of information theory to neuroscience (\cite{mackay_limiting_1952}) and in epistemology since Dretske (\cite{dretske_knowledge_1981}). Recognize two separate kinds of information: Shannon information and semantic information. 
 
-   
-   
 
   
 
@@ -909,58 +909,95 @@ The amount of Shannon information is then a statistical property of its vehicles
 
 \begin{frame}[label=trafalgar]{Dennett's Trafalgar Square Argument}
     
-    Dennett provides a toy model to illustrate the gap (\cite{dennett_bacteria_2017}): 
+    Dennett provides a toy model to illustrate the gap: 
     
-    "Jacques shoots his uncle dead in Trafalgar Square and is apprehended on the spot by Sherlock. Tom reads about it in the Guardian, and Boris learns of it in Pravda.\textbf{ Jacques, Sherlock, Tom, and Boris have had remarkably different experiences, but they share one thing: semantic information that a Frenchman has committed a murder in Trafalgar Square.} (...) They share no encoding, but they do share semantic information."
+    "Jacques shoots his uncle dead in Trafalgar Square and is apprehended on the spot by Sherlock. Tom reads about it in the Guardian, and Boris learns of it in Pravda.\textbf{ Jacques, Sherlock, Tom, and Boris have had remarkably different experiences, but they share one thing: semantic information that a Frenchman has committed a murder in Trafalgar Square.} (...) They share no encoding, but they do share semantic information."(\cite{dennett_bacteria_2017})
 
     \bigskip
     
     \begin{quote}
-    "Semantic information, the concept of information that we must start with, is remarkably independent of encodings, in the following sense: two or more observers can acquire the same semantic information from encounters that share no channel" ()\cite{dennett_bacteria_2017}). 
+    "Semantic information, the concept of information that we must start with, is remarkably independent of encodings, in the following sense: two or more observers can acquire the same semantic information from encounters that share no channel" (\cite{dennett_bacteria_2017}). 
     \end{quote}
 
     I will argue below that "seeing" these channels is a ambitious, open scientific project.
 
 \end{frame}
 
+\begin{frame}[label=rich_mental_representation]{Rich mental representation vs neural information debate}
 
-
-\begin{frame}{Taking information for its measure }
-
-    It is quite common in the literature to identify information with information entropy.
-    (Piccinini)
-
-    
+    Krakauer Shea 
 
 \end{frame}
 
 
-\begin{frame}[label=equal_entropy]{Argument from Equal Entropy}
-  Two different distributions can have the same Shannon entropy, $H(X)$, even if their internal structures differ significantly. 
+
+\begin{frame}{Taking collection for its measure }
+
+    
+    It is common in the literature to identify information with information entropy.
+  
+    That is somewhat unexpected observation, because we usually do not make this mistake in the commonly used measures of objects. Measure of the collection is not a collection.
+
+    
+\end{frame}
+
+
+
+
+\begin{frame}[label=equal_entropy]{Argument from Entropy and Order difference}
+  Two different distributions can have the same Shannon entropy even if their internal structures differ significantly. However, there role of order measure of the order of information is invastigated by philosophers (xxx Mann)
 
 \begin{center}
-    \includegraphics[width=0.25\textwidth]{images/entropia_1.png}
-    \includegraphics[width=0.25\textwidth]{images/entropia_2.png}
+    ORDERED \includegraphics[width=0.25\textwidth]{images/entropia_1.png} UNORDERED \includegraphics[width=0.25\textwidth]{images/entropia_2.png}
 \end{center}
-   The first receptive field may represent tasty food that some  fish could eat. Second is rather only a dirt! So the information first differs from the information in second one.
+   The first receptive field may represent tasty food that some  fish could eat (collection is a cluster). Second is rather only a dirt! So the information first must differ from the information in second one.
 \end{frame}
 
 \begin{frame}[label=equal_entropy_cont]{Argument from Equal Entropy (cont.)}    
        
 This argument is flawed in at least two respects.
 
-First, whats is equal, is only the measure (entropy). Cf. a glass of water can carry the same amout of water as a bottle.    Shannon entropy captures the variability or uncertainty of a distribution but \textbf{does not capture the specific arrangement or structure of the data}.
+First, whats is equal, is only the measure (entropy). Cf. a glass of water can carry the same amout of water as a bottle.    Shannon entropy captures the variability distribution but \textbf{does not capture the specific arrangement or structure of the data}.
 
 
-    So the collorary is mistaken: it is not the case that there is a new kind of information, but rather that we should look for mechanism preserving order  or internal structure.
+    So the collorary is mistaken: it is not the argument for a more than one kind of information, but rather that for the need of mechanism preserving order  or internal structure.
 
-    E.g. in retina this order may be preserved just by spatial encoding that is then encoded by time relations between spikes
+    Shannon original communication model simply preserves order (FIFO) by default. XXX his paper
+
+    E.g. in retina this order may be preserved just by spatial encoding that is then encoded by time relations between spikes (Barlow hypopthesis )
 
    
 
 
 \end{frame}
 
+
+\begin{frame}[label=barlow]{Biological Plausibility: Barlow’s hypothesis}
+
+    \begin{columns}[T] % The [T] option aligns the columns at the top
+   
+           % Column for the picture
+           \begin{column}{0.5\textwidth}
+               \includegraphics[width=1\linewidth]{images/latexImage_aad051c66a8ab8fe36b14843445faa7f.png} % Adjust the path and filename
+           \end{column}
+   
+           % Column for the text
+           \begin{column}{0.5\textwidth}
+            Sensory neuron's firing rate reflects the strength of stimulation (Adrian, Zotterman, 1926), a higher rate indicating a stronger stimulation (but the size of each spike remains constant).
+           \end{column}
+   
+       \end{columns}
+   
+   
+   In 1953, Barlow hypothesized:
+
+   \begin{itemize}
+       \item \textbf{the stronger the stimuli, the richer are the spike trains} (interpreted as neuron's response to the stimuli).
+   \end{itemize}
+   
+   Barlow hypothesized that the spikes in the sensory system formed a neural code for efficiently representing sensory information. \textbf{By efficient, Barlow meant that the code minimized the number of spikes needed to transmit a given signal.} 
+
+\end{frame}
 
 
 
@@ -1046,7 +1083,7 @@ The elements of the pipeline are then in \textbf{causal relations.} ("Cheap corr
 \begin{frame}[label=shannon_pipeline]{Shannon pipeline basic scheme}
  
    
-    \subsection*{Shannon Communication Pipelien with Noisy Channel as Mechanistic Component}
+    \subsection*{Original Shannon Communication Pipeline with Noisy Channel }
         \begin{center}
         \begin{tikzpicture}[node distance=2cm, thick, every node/.style={font=\small}]
             \node (source) [draw, minimum width=2.5cm, minimum height=1cm] {Source $S$};
@@ -1062,6 +1099,8 @@ The elements of the pipeline are then in \textbf{causal relations.} ("Cheap corr
             \draw[->] (noise) -- (channel);
         \end{tikzpicture}
         \end{center}
+
+
 
     \end{frame}
 
@@ -1092,10 +1131,10 @@ The elements of the pipeline are then in \textbf{causal relations.} ("Cheap corr
                 \end{center}
              
                 \vspace{0.5cm}
-                \textbf{Properties of pipeline (not the variability being processed)}
+                \textbf{Properties of pipeline - a template}
                 \begin{itemize}
-                    \item \textbf{Task Function:} Reliable transmission or storage of information from point to point Source to Destination. Intended a real world device - mechanism.
-                    \item \textbf{Compositionalty type /ORDER TYPE:} FIFO queue; not  compositional, FIFO IS a kind of order!!! rozwiń to w slajdzie 
+                    \item \textbf{Task Function:} Reliable transmission or storage of information from point to point, fron Source to Destination. Intended a real world mechanism when applied.
+                    \item \textbf{Order / Compositionalty  / systematicity:} First-In-First-Out queue; not compositional in normal sense, however FIFO is a kind of order preserving process.
                     
                     \item \textbf{Encoder}: Increases redundancy of the information before sending as "signal" through the Cchannel.
                     \item \textbf{Decoder }: Reduces redundancy, reconstructs the original message given the signal received from the channel.
@@ -1124,22 +1163,35 @@ The elements of the pipeline are then in \textbf{causal relations.} ("Cheap corr
         \end{figure}
     
         \begin{tikzpicture}[remember picture, overlay]     
-            \node at (4cm, 6cm) {\textbf{\textcolor{red}{accuracy condition}}};
-             \node at (11cm, 6cm) {\textbf{\textcolor{red}{ semantic information}}};
+            \node at (4cm, 6cm) {\textbf{\textcolor{red}{accuracy condition }}};
+             \node at (11cm, 6cm) {\textbf{\textcolor{red}{ information is grounded}}};
         \end{tikzpicture}
 
         Accuracy conndition is the Source in the pipeline.
-        Shannon model, when applied to cognitive subsystem of an organism, has accuracy conditions; that accuracy can be measured by mutual information between the source and the destination. Thus, the pipepile  is semantic: it is grounded in the Harnad sense (\cite{harnad_symbol_1990})
-
+        Shannon model, when applied to cognitive subsystem of an organism, has accuracy conditions; that accuracy can be measured by mutual information between the source and the destination. Thus, the pipeline is \textbf{grounded} in the Harnad sense (\cite{harnad_symbol_1990})
+\textbf{        But we want more from fully semantic pipeline! We require compositionality or at least systematicity.  (The basic Shannon  delivers by default mere FIFO order.)
+}
 \end{frame}
 
 
 
-\begin{frame}[label=structural_candidate]
+\begin{frame}[label=structural_candidate]{Fodor's critique of tensor-based connectionism }
     \begin{center}
-      \Huge A candidate for structural representation
-    \end{center}
+      \Huge Pipelines that are candidates for structural representations
+     \end{center}
+
+   \small Smolensky's "strong compositional structure," based on tensor product representations, fails to explain systematicity because its "constituents" are not genuinely accessible for structure-sensitive mental processes. \autocite{fodorConnectionismProblemSystematicity1990}
+
+    While tensor product and superposition vectors can code or represent constituent structure, they are not actually tokened, so they lack causal status and cannot "make things happen" or contribute to the causal consequences of a representation's tokening.
+
+    This is simply not true in the pipelines ontology. 
+
+
+
+
 \end{frame}
+
+
 
 
 
@@ -1462,33 +1514,6 @@ encodes a signal of intensity:
 \end{frame}
 
 
-\begin{frame}[label=barlow]{Biological Plausibility: Barlow’s hypothesis}
-
-    \begin{columns}[T] % The [T] option aligns the columns at the top
-   
-           % Column for the picture
-           \begin{column}{0.5\textwidth}
-               \includegraphics[width=1\linewidth]{images/latexImage_aad051c66a8ab8fe36b14843445faa7f.png} % Adjust the path and filename
-           \end{column}
-   
-           % Column for the text
-           \begin{column}{0.5\textwidth}
-            Sensory neuron's firing rate reflects the strength of stimulation (Adrian, Zotterman, 1926), a higher rate indicating a stronger stimulation (but the size of each spike remains constant).
-           \end{column}
-   
-       \end{columns}
-   
-   
-   In 1953, Barlow hypothesized:
-
-   \begin{itemize}
-       \item \textbf{the stronger the stimuli, the richer are the spike trains} (interpreted as neuron's response to the stimuli).
-   \end{itemize}
-   
-   Barlow hypothesized that the spikes in the sensory system formed a neural code for efficiently representing sensory information. \textbf{By efficient, Barlow meant that the code minimized the number of spikes needed to transmit a given signal.} 
-
-\end{frame}
-
 
 
 \begin{frame}{Main Question: How would adding be achievable in the Shannon model by means of information theory?}
@@ -1739,7 +1764,7 @@ A
 
 \end{frame}
 
-\begin{frame}[label=no_gap] {The landscape after New Mechanists treatment}
+\begin{frame}[label=no_gap, shrink] {The landscape after New Mechanists treatment}
     
     
    
