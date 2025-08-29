@@ -24,16 +24,24 @@
 %Define theme and color settings
 \usetheme{boxes}
 \usecolortheme{dove} % Grayscale color theme
-\usebeamerfont{serif}
+
+
+\usebeamerfont{sansserif}
+
 % Remove navigation symbols
 \setbeamertemplate{navigation symbols}{}
+
+% Set frame title font to a blocky (sans-serif) style
+\setbeamerfont{frametitle}{family=\sffamily}
+% Remove navigation symbols
+
 \setbeamertemplate{frametitle}{
     \vspace{0.2cm}
     \begin{centering}
         {\textbf{\Huge}\insertframetitle\par} % Increased font size
     \end{centering}
 }
-\setbeamercolor{frametitle}{fg=blue!80!black}
+\setbeamercolor{frametitle}{fg=black}
 \setlength{\parskip}{0.3em}  % Adjust the value as needed
 %\setbeamerfont{frametitle}{size=\normalsize, series=\bfseries}
 
@@ -944,8 +952,8 @@ The amount of Shannon information is then a statistical property of its vehicles
 
 
 
-\begin{frame}[label=equal_entropy]{Argument from Entropy and Order difference}
-  Two different distributions can have the same Shannon entropy even if their internal structures differ significantly. However, there role of order measure of the order of information is invastigated by philosophers (xxx Mann)
+\begin{frame}[allowframebreaks,label=equal_entropy]{Argument from Entropy and Order difference}
+  Two different distributions can have the same Shannon entropy even if their internal structures differ significantly. There role of order measure of the order of information is currently  invastigated by philosophers (xxx Mann)
 
 \begin{center}
     ORDERED \includegraphics[width=0.25\textwidth]{images/entropia_1.png} UNORDERED \includegraphics[width=0.25\textwidth]{images/entropia_2.png}
@@ -953,18 +961,18 @@ The amount of Shannon information is then a statistical property of its vehicles
    The first receptive field may represent tasty food that some  fish could eat (collection is a cluster). Second is rather only a dirt! So the information first must differ from the information in second one.
 \end{frame}
 
-\begin{frame}[label=equal_entropy_cont]{Argument from Equal Entropy (cont.)}    
-       
+\begin{frame}[label=equal_entropy_cont]{Argument from Entropy and Order difference (cont.)}
+
 This argument is flawed in at least two respects.
 
-First, whats is equal, is only the measure (entropy). Cf. a glass of water can carry the same amout of water as a bottle.    Shannon entropy captures the variability distribution but \textbf{does not capture the specific arrangement or structure of the data}.
+First, whats is equal here, is only the measure (entropy). Cf. a glass of water can carry the same amout of water as a bottle.    Shannon entropy captures the variability distribution but \textbf{does not capture the specific arrangement or structure of the data}.
 
 
     So the collorary is mistaken: it is not the argument for a more than one kind of information, but rather that for the need of mechanism preserving order  or internal structure.
 
     Shannon original communication model simply preserves order (FIFO) by default. XXX his paper
 
-    E.g. in retina this order may be preserved just by spatial encoding that is then encoded by time relations between spikes (Barlow hypopthesis )
+    E.g. in retina this order may be preserved just by spatial encoding that is then encoded by time relations between spikes (Barlow hypothesis )
 
    
 
