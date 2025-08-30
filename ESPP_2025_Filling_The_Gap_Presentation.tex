@@ -92,19 +92,18 @@
 
 \begin{frame}[label=overview]{My talk today}
     \begin{enumerate}
-        \item \textbf{Kinds of information} Why suspect there are multiple kinds of information?
-        \item \textbf{The pipeline: Shannon  model in the eyes of New Mechanist}
-        \item \textbf{Other examples} Kinds of (cognitive) pipelines
-        \item \textbf{Structural representations:} A candidate for bridging compositional
-        \item \textbf{Compositionality:} The missing piece in structural reps
-        \item \textbf{Proposal:} Noisy addition as a pathway to linearity (multidimentional spaces)
-        \item \textbf{Conclusions:} One kind of information, many kinds of pipelines 
+        \item \textbf{Kinds of information.} Why suspect there are multiple kinds of information?
+        \item \textbf{The pipeline.} Shannon  model in the eyes of New Mechanist
+        \item \textbf{Other examples.} Kinds of (cognitive) pipelines
+        \item \textbf{Compositionality and structural representations.} A candidate for structural representation and semantic information
+        \item \textbf{Proposal.} Noisy addition as a pathway to linearity in multidimensional spaces
+        \item \textbf{Conclusions.} One kind of information, many kinds of pipelines
     \end{enumerate}
 \end{frame}
 
 
 
-\begin{frame}[label=gap] {(Some)kinds of information (after 1948)}
+\begin{frame}[label=gap] {(Some) kinds of information (after 1948)}
     
     
    
@@ -299,6 +298,19 @@ The Shannon pipeline with source and channel encoding / decoding parts: communic
   
 
 \end{frame}
+
+
+
+\begin{frame}[label=carnap_bar_hillel]{Probably first mention about semantic information}
+   
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\textwidth]{images/Carnap_1952.png}
+    \caption{Four years after Shannon introducing the entropy of information new term is coined by Carnap and}
+    \label{fig:pimage}
+\end{figure}
+\end{frame}
+
 
 
 
@@ -654,20 +666,6 @@ FUNCTIONAL INFORAMTION  (FRESCO)
 
 
 
-\begin{frame}[label=coins_setup] {COins in the pocket setup}
-    \begin{center}
-        Correlations can be perfectly accidental and still carry natural information
-        Pipelines can have multiple sources.
-        Pipeleines can be branched.
-        
-        Draw the example of pipelines in case of the "Coins in the pocket setup"
-
-        
-        This kind of setup is multiplied and  combined in social networks, which explains Dennets Trafalgar square exaple: it shows "the channel" of his interest as branches structed of causally connected elements, sources, senders, receivers.
-
-    \end{center}
-\end{frame}
-
 
 
 \begin{frame}[label=early_neural]{Early neural systems as information pipelenes}
@@ -713,59 +711,23 @@ both pipelines can be achieved from mere one-dimensional copiers (like Shannon c
 \end{frame}
 
 
-\begin{frame}[label=info_theory_reps] {Representations in the information theory: a way that I won't choose today}
-        
-    Small disclaimer. 
-    Originally, Dretske required the necessity of conditional probabilitity for representation (\cite{Dretske1981}), which is unrealistic in a noisy world: representations often misrepresent. On the other hand, simply raising the conditional probability of a stimulus given a representation is too weak to establish a representational relation between random variables $X_i$ and $Y_j$: it brings indeterminacy of content as immediate problem.   Additionally, mutual information $I(X_i;Y_j)$ is symmetric. \textbf{These consequences seem a bit unrealistic. Hint: original Dretske's setup lacks crucial parts of the Shannon's pipeline.}          
-            \begin{tikzpicture}[node distance=2cm, thick]
-            
-                % Node Styles
-                \tikzset{circle_node/.style={circle, fill=lightgray, minimum size=0.6cm}}
-                \tikzset{ellipse_node/.style={ellipse, fill=yellow, minimum height=3cm, minimum width=3cm, text centered, draw}}
-                \tikzset{diamond_node/.style={diamond, fill=gray!70, minimum size=0.8cm}}
-                
-                % Nodes
-                \node[circle_node] (A) {$X_1$}; % Circle node on the left with $X_1$
-                \node[diamond_node, above left=1cm and 1cm of A] (B) {$X_2$}; % Diamond node below left with $X_2$
-                \node[ellipse_node, right=3.5cm of A] (Y) {$Y_i$,  $Y_j$,   $Y_k$}; % Ellipse node on the right with $Y_i$, $Y_j$, $Y_k
-                
-                % Images
-                \node [left= 0.5cm of B]{\includegraphics[width=2cm]{images/mucha.jpg}};
-                \node [left= 0.5cm of A]{\includegraphics[width=2cm]{images/kropki.jpg}};
-                \node [right= 0.5cm of Y]{\includegraphics[width=3cm]{images/zaba.jpg}};
-            
-                % Titles
-            
-                
-                % Arrows and connections
-                \draw[thick,->] (A) -- (Y); % Arrow from left circle to ellipse
-                \draw[->, thick] (B) -- (Y); % Arrow from diamond to ellipse
-                
-            \end{tikzpicture}
-           
-            
-
-    \end{frame}
 
 
-\begin{frame}[label=kinds_vehicles]
-    \begin{center}
-      {\Huge  Kinds of information and their vehicles } % Use \Huge for very large font size
-    \end{center}
-\end{frame}
 
 
 \begin{frame}[label=semantic_meaning] {What does "semantic" mean, roughly}
     \begin{center}
-        Sematnicity is a property of representations (words, images, maps) that are about something, that have "aboutness" or "intentionality" (in the sense of Brentano, \cite{brentano_psychology_1995}) - but in a distinguished way.
+        Semanticity is a property of representation sytems (words, images, maps) that are about something, that have "aboutness" or "intentionality" (in the sense of Brentano, \cite{brentano_psychology_1995}) - but in a distinguished way: systematic way.
 
         Tarski (who inspired Carnap invastigation of language meaning conceived as sets of functions from possible worlds to truth values)
         Tarski defined truth using
-        -  terms that refer to domain 
-        - logic constants (e.g. "and", "or", "not"), quantifiers
-        - recursive rules of constructing thet properly build formulas such that what they refer to is a function of the referntial terms and logical constants.
+        \begin{itemize}
+            \item Terms that refer to the domain, such as logic constants (e.g., "and", "or", "not") and quantifiers.
+            \item Recursive rules for constructing properly built compound representations.
+            \item Ensuring that what the compound representations refer to is a function of the referential terms and logical constants.
+        \end{itemize}
+
         
-        That kind of buolding sets of languae representatoins of a domain; which are systematically related : their values depend only on the values of the referential terms and logical constants used in them.
 
 
     \end{center}
